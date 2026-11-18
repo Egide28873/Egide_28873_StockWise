@@ -200,7 +200,7 @@ Selected Business Process: Inventory Monitoring and Replenishment Process.
 
 This phase focuses on understanding and modeling how StockWise monitors product quantities and supports the process of replenishing products when stock becomes low.
 
-Business Process Description
+10.1 Business Process Description
 
 The process starts when StockWise retrieves the available product quantities and compares them with the minimum stock levels.
 
@@ -208,7 +208,7 @@ When a product reaches or falls below its minimum stock level, the system genera
 
 If approved, inventory staff prepares a purchase order and sends it to the supplier. The supplier delivers the products, and inventory staff checks the delivered items before recording the purchase and updating the available stock.
 
-Actors Involved
+10.2 Actors Involved
 
 Actor
 
@@ -230,7 +230,7 @@ Supplier
 
 Receives purchase orders and delivers products.
 
-Database Operations
+10.3 Database Operations
 
 The process identifies the following data operations:
 
@@ -240,15 +240,18 @@ READ: Retrieve product quantities and minimum stock levels.
 
 UPDATE: Update product stock quantities and relevant records.
 
-Business Process Diagram
+10.4 Business Process Diagram and Documents
 
 Diagram Tool: draw.io
 
-Published Activity Diagram: View StockWise Activity Diagram
+Published Activity Diagram:
+https://drive.google.com/file/d/1jobX-PzyWV1Skf4xEag4AJ1t_qY8EzYp/view?usp=sharing
 
-Business Process Explanation: View Business Process Explanation PDF
+Business Process Explanation:
+https://github.com/Egide28873/Egide_28873_StockWise/blob/main/docs/business_process/business_process_explanation.pdf
 
-Business Process Diagram PDF: View Business Process Diagram PDF
+Business Process Diagram PDF:
+https://github.com/Egide28873/Egide_28873_StockWise/blob/main/docs/business_process/business_process_diagram.pdf
 
 Expected outcome: A clear representation of the inventory monitoring and replenishment process, showing the actors, activities, decisions and information flow.
 
@@ -313,10 +316,14 @@ Phase I focuses on modeling the Inventory Monitoring and Replenishment Process a
 
 The next stages will focus on Oracle database design, PL/SQL development and implementation of the application interface using Oracle APEX.
 
-Project: StockWise – Inventory Management and Replenishment System
+Project Author
 
-Student: Egide Niyonzima
+Name: Egide Niyonzima
 
 Student ID: 28873
 
-Institution: Adventist University of Central Africa (AUCA)
+University: Adventist University of Central Africa (AUCA)
+
+Course: Database Development with PL/SQL (INSY 8311)
+
+Project: StockWise – Inventory Management and Replenishment System
