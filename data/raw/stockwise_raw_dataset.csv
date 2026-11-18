@@ -1,0 +1,601 @@
+TransactionID,TransactionType,TransactionDate,SaleID,PurchaseID,ProductID,ProductName,CategoryID,CategoryName,SupplierID,SupplierName,SupplierCity,CustomerID,CustomerName,CustomerCity,Quantity,UnitPrice,UnitCost,CurrentStock,MinimumStock
+T0001,SALE,2026-05-14,S0001,,31,Bread Loaf - Pack 2,7,Bakery,2,FreshMart Suppliers,Kigali,53,Customer 053,Rubavu,22,877,573,125,13
+T0002,SALE,2026-07-14,S0002,,39,Cola Drink 500ml - Pack 3,1,Beverages,3,East Africa Distributors,Nairobi,48,Customer 048,Huye,12,753,443,159,26
+T0003,SALE,2026-09-02,S0003,,17,Frozen Chips 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,23,Customer 023,Rubavu,32,3295,2427,54,19
+T0004,SALE,2026-07-03,S0004,,14,Exercise Book,8,Stationery,7,City Paper Products,Kigali,19,Customer 019,Kigali,21,696,416,98,14
+T0005,SALE,2026-04-07,S0005,,16,Floor Cleaner 1L,9,Cleaning,10,QuickClean Supplies,Kigali,4,Customer 004,Kigali,30,2516,1698,82,13
+T0006,PURCHASE,2026-11-17,,P0006,15,Ballpoint Pen,8,Stationery,7,City Paper Products,Kigali,,,,14,335,112,58,28
+T0007,SALE,2026-05-17,S0007,,9,Bath Soap,5,Personal Care,5,Prime Household Supply,Kigali,12,Customer 012,Muhanga,34,808,499,80,29
+T0008,SALE,2026-08-31,S0008,,20,Orange Juice 1L - Pack 2,1,Beverages,8,Sunrise Imports,Rubavu,17,Customer 017,Musanze,32,1836,1207,52,15
+T0009,PURCHASE,2026-05-05,,P0009,24,Fresh Milk 1L - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,,,,11,1561,1092,51,34
+T0010,SALE,2026-06-04,S0010,,1,Mineral Water 500ml,1,Beverages,1,Kigali Wholesale Ltd,Kigali,18,Customer 018,Huye,3,371,211,119,21
+T0011,PURCHASE,2026-01-26,,P0011,3,Cola Drink 500ml,1,Beverages,3,East Africa Distributors,Nairobi,,,,26,644,423,105,15
+T0012,PURCHASE,2026-03-29,,P0012,21,Cola Drink 500ml - Pack 2,1,Beverages,3,East Africa Distributors,Nairobi,,,,9,704,421,19,23
+T0013,SALE,2026-03-02,S0013,,22,Potato Crisps 50g - Pack 2,2,Snacks,3,East Africa Distributors,Nairobi,40,Customer 040,Rwamagana,6,607,367,48,35
+T0014,PURCHASE,2026-06-19,,P0014,20,Orange Juice 1L - Pack 2,1,Beverages,8,Sunrise Imports,Rubavu,,,,25,1836,1207,52,15
+T0015,PURCHASE,2026-08-15,,P0015,4,Potato Crisps 50g,2,Snacks,3,East Africa Distributors,Nairobi,,,,29,638,347,82,18
+T0016,SALE,2026-04-25,S0016,,37,Mineral Water 500ml - Pack 3,1,Beverages,1,Kigali Wholesale Ltd,Kigali,35,Customer 035,Rwamagana,8,324,222,67,20
+T0017,PURCHASE,2026-03-13,,P0017,19,Mineral Water 500ml - Pack 2,1,Beverages,1,Kigali Wholesale Ltd,Kigali,,,,23,360,200,103,15
+T0018,PURCHASE,2026-09-30,,P0018,13,Bread Loaf,7,Bakery,2,FreshMart Suppliers,Kigali,,,,22,970,627,49,24
+T0019,PURCHASE,2026-09-08,,P0019,21,Cola Drink 500ml - Pack 2,1,Beverages,3,East Africa Distributors,Nairobi,,,,20,704,421,19,23
+T0020,PURCHASE,2026-05-15,,P0020,19,Mineral Water 500ml - Pack 2,1,Beverages,1,Kigali Wholesale Ltd,Kigali,,,,34,360,200,103,15
+T0021,SALE,2026-10-27,S0021,,15,Ballpoint Pen,8,Stationery,7,City Paper Products,Kigali,16,Customer 016,Huye,30,335,112,58,28
+T0022,PURCHASE,2026-06-06,,P0022,17,Frozen Chips 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,,,,12,3295,2427,54,19
+T0023,SALE,2026-04-04,S0023,,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,9,Customer 009,Rwamagana,35,687,378,28,35
+T0024,SALE,2026-08-31,S0024,,5,Chocolate Bar,2,Snacks,11,BestChoice Trading,Muhanga,22,Customer 022,Muhanga,2,967,594,167,29
+T0025,PURCHASE,2026-05-10,,P0025,20,Orange Juice 1L - Pack 2,1,Beverages,8,Sunrise Imports,Rubavu,,,,3,1836,1207,52,15
+T0026,SALE,2026-02-27,S0026,,24,Fresh Milk 1L - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,60,Customer 060,Musanze,30,1561,1092,51,34
+T0027,PURCHASE,2026-03-19,,P0027,23,Chocolate Bar - Pack 2,2,Snacks,11,BestChoice Trading,Muhanga,,,,11,887,546,114,10
+T0028,SALE,2026-10-29,S0028,,31,Bread Loaf - Pack 2,7,Bakery,2,FreshMart Suppliers,Kigali,25,Customer 025,Huye,7,877,573,125,13
+T0029,SALE,2026-10-01,S0029,,30,Canned Peas - Pack 2,6,Canned Foods,9,Green Valley Foods,Rwamagana,12,Customer 012,Muhanga,9,1377,879,109,34
+T0030,SALE,2026-03-19,S0030,,40,Potato Crisps 50g - Pack 3,2,Snacks,3,East Africa Distributors,Nairobi,40,Customer 040,Rwamagana,16,569,330,138,26
+T0031,SALE,2026-11-06,S0031,,25,Yogurt Cup - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,33,Customer 033,Kigali,5,451,319,59,24
+T0032,PURCHASE,2026-03-01,,P0032,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,,,,29,687,378,28,35
+T0033,SALE,2026-11-17,S0033,,18,Frozen Chicken 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,37,Customer 037,Rwamagana,22,6961,4802,34,24
+T0034,SALE,2026-11-05,S0034,,30,Canned Peas - Pack 2,6,Canned Foods,9,Green Valley Foods,Rwamagana,8,Customer 008,Musanze,30,1377,879,109,34
+T0035,SALE,2026-07-17,S0035,,29,Canned Beans - Pack 2,6,Canned Foods,4,Rwanda Food Traders,Musanze,60,Customer 060,Musanze,17,1025,726,46,28
+T0036,SALE,2026-01-12,S0036,,27,Bath Soap - Pack 2,5,Personal Care,5,Prime Household Supply,Kigali,19,Customer 019,Kigali,26,818,495,166,25
+T0037,SALE,2026-10-19,S0037,,23,Chocolate Bar - Pack 2,2,Snacks,11,BestChoice Trading,Muhanga,33,Customer 033,Kigali,27,887,546,114,10
+T0038,SALE,2026-05-20,S0038,,34,Floor Cleaner 1L - Pack 2,9,Cleaning,10,QuickClean Supplies,Kigali,35,Customer 035,Rwamagana,16,2484,1725,66,21
+T0039,SALE,2026-01-18,S0039,,20,Orange Juice 1L - Pack 2,1,Beverages,8,Sunrise Imports,Rubavu,47,Customer 047,Muhanga,21,1836,1207,52,15
+T0040,SALE,2026-01-04,S0040,,24,Fresh Milk 1L - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,41,Customer 041,Kigali,26,1561,1092,51,34
+T0041,PURCHASE,2026-01-17,,P0041,18,Frozen Chicken 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,,,,24,6961,4802,34,24
+T0042,SALE,2026-09-03,S0042,,10,Toothpaste 100ml,5,Personal Care,2,FreshMart Suppliers,Kigali,41,Customer 041,Kigali,26,1533,1034,101,28
+T0043,SALE,2026-08-02,S0043,,4,Potato Crisps 50g,2,Snacks,3,East Africa Distributors,Nairobi,60,Customer 060,Musanze,3,638,347,82,18
+T0044,SALE,2026-04-02,S0044,,21,Cola Drink 500ml - Pack 2,1,Beverages,3,East Africa Distributors,Nairobi,27,Customer 027,Musanze,1,704,421,19,23
+T0045,SALE,2026-05-21,S0045,,11,Canned Beans,6,Canned Foods,4,Rwanda Food Traders,Musanze,51,Customer 051,Rubavu,14,1110,759,20,18
+T0046,PURCHASE,2026-06-22,,P0046,18,Frozen Chicken 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,,,,3,6961,4802,34,24
+T0047,SALE,2026-10-22,S0047,,6,Fresh Milk 1L,3,Dairy,6,Dairy Direct Rwanda,Huye,37,Customer 037,Rwamagana,23,1570,1115,87,16
+T0048,SALE,2026-01-03,S0048,,22,Potato Crisps 50g - Pack 2,2,Snacks,3,East Africa Distributors,Nairobi,44,Customer 044,Musanze,34,607,367,48,35
+T0049,SALE,2026-04-21,S0049,,14,Exercise Book,8,Stationery,7,City Paper Products,Kigali,39,Customer 039,Kigali,29,696,416,98,14
+T0050,PURCHASE,2026-07-30,,P0050,10,Toothpaste 100ml,5,Personal Care,2,FreshMart Suppliers,Kigali,,,,18,1533,1034,101,28
+T0051,PURCHASE,2026-03-11,,P0051,6,Fresh Milk 1L,3,Dairy,6,Dairy Direct Rwanda,Huye,,,,10,1570,1115,87,16
+T0052,SALE,2026-06-15,S0052,,39,Cola Drink 500ml - Pack 3,1,Beverages,3,East Africa Distributors,Nairobi,59,Customer 059,Musanze,32,753,443,159,26
+T0053,SALE,2026-10-20,S0053,,27,Bath Soap - Pack 2,5,Personal Care,5,Prime Household Supply,Kigali,16,Customer 016,Huye,4,818,495,166,25
+T0054,PURCHASE,2026-04-16,,P0054,10,Toothpaste 100ml,5,Personal Care,2,FreshMart Suppliers,Kigali,,,,13,1533,1034,101,28
+T0055,SALE,2026-10-30,S0055,,7,Yogurt Cup,3,Dairy,6,Dairy Direct Rwanda,Huye,41,Customer 041,Kigali,32,526,298,122,33
+T0056,SALE,2026-05-12,S0056,,35,Frozen Chips 1kg - Pack 2,10,Frozen Foods,12,FrostLine Distributors,Kigali,33,Customer 033,Kigali,20,3389,2258,42,27
+T0057,SALE,2026-05-22,S0057,,22,Potato Crisps 50g - Pack 2,2,Snacks,3,East Africa Distributors,Nairobi,49,Customer 049,Musanze,4,607,367,48,35
+T0058,SALE,2026-04-29,S0058,,2,Orange Juice 1L,1,Beverages,8,Sunrise Imports,Rubavu,33,Customer 033,Kigali,23,1873,1294,62,28
+T0059,SALE,2026-02-01,S0059,,23,Chocolate Bar - Pack 2,2,Snacks,11,BestChoice Trading,Muhanga,16,Customer 016,Huye,28,887,546,114,10
+T0060,SALE,2026-05-25,S0060,,39,Cola Drink 500ml - Pack 3,1,Beverages,3,East Africa Distributors,Nairobi,27,Customer 027,Musanze,9,753,443,159,26
+T0061,SALE,2026-08-15,S0061,,6,Fresh Milk 1L,3,Dairy,6,Dairy Direct Rwanda,Huye,16,Customer 016,Huye,2,1570,1115,87,16
+T0062,SALE,2026-05-08,S0062,,37,Mineral Water 500ml - Pack 3,1,Beverages,1,Kigali Wholesale Ltd,Kigali,43,Customer 043,Rubavu,3,324,222,67,20
+T0063,SALE,2026-10-25,S0063,,24,Fresh Milk 1L - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,37,Customer 037,Rwamagana,25,1561,1092,51,34
+T0064,SALE,2026-11-09,S0064,,30,Canned Peas - Pack 2,6,Canned Foods,9,Green Valley Foods,Rwamagana,57,Customer 057,Muhanga,28,1377,879,109,34
+T0065,PURCHASE,2026-05-10,,P0065,5,Chocolate Bar,2,Snacks,11,BestChoice Trading,Muhanga,,,,18,967,594,167,29
+T0066,PURCHASE,2026-03-20,,P0066,23,Chocolate Bar - Pack 2,2,Snacks,11,BestChoice Trading,Muhanga,,,,19,887,546,114,10
+T0067,SALE,2026-10-17,S0067,,26,Laundry Soap - Pack 2,4,Household,5,Prime Household Supply,Kigali,40,Customer 040,Rwamagana,13,1242,799,158,29
+T0068,SALE,2026-08-13,S0068,,26,Laundry Soap - Pack 2,4,Household,5,Prime Household Supply,Kigali,60,Customer 060,Musanze,24,1242,799,158,29
+T0069,SALE,2026-05-21,S0069,,35,Frozen Chips 1kg - Pack 2,10,Frozen Foods,12,FrostLine Distributors,Kigali,48,Customer 048,Huye,22,3389,2258,42,27
+T0070,PURCHASE,2026-01-10,,P0070,22,Potato Crisps 50g - Pack 2,2,Snacks,3,East Africa Distributors,Nairobi,,,,25,607,367,48,35
+T0071,PURCHASE,2026-04-19,,P0071,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,,,,7,687,378,28,35
+T0072,SALE,2026-09-02,S0072,,8,Laundry Soap,4,Household,5,Prime Household Supply,Kigali,31,Customer 031,Musanze,35,1183,786,53,19
+T0073,SALE,2026-04-02,S0073,,10,Toothpaste 100ml,5,Personal Care,2,FreshMart Suppliers,Kigali,6,Customer 006,Huye,9,1533,1034,101,28
+T0074,SALE,2026-08-26,S0074,,16,Floor Cleaner 1L,9,Cleaning,10,QuickClean Supplies,Kigali,33,Customer 033,Kigali,10,2516,1698,82,13
+T0075,SALE,2026-10-13,S0075,,24,Fresh Milk 1L - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,16,Customer 016,Huye,3,1561,1092,51,34
+T0076,SALE,2026-10-07,S0076,,30,Canned Peas - Pack 2,6,Canned Foods,9,Green Valley Foods,Rwamagana,35,Customer 035,Rwamagana,27,1377,879,109,34
+T0077,SALE,2026-01-25,S0077,,25,Yogurt Cup - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,25,Customer 025,Huye,7,451,319,59,24
+T0078,PURCHASE,2026-09-11,,P0078,29,Canned Beans - Pack 2,6,Canned Foods,4,Rwanda Food Traders,Musanze,,,,13,1025,726,46,28
+T0079,PURCHASE,2026-06-15,,P0079,15,Ballpoint Pen,8,Stationery,7,City Paper Products,Kigali,,,,26,335,112,58,28
+T0080,PURCHASE,2026-09-08,,P0080,30,Canned Peas - Pack 2,6,Canned Foods,9,Green Valley Foods,Rwamagana,,,,29,1377,879,109,34
+T0081,SALE,2026-02-20,S0081,,21,Cola Drink 500ml - Pack 2,1,Beverages,3,East Africa Distributors,Nairobi,60,Customer 060,Musanze,23,704,421,19,23
+T0082,PURCHASE,2026-05-20,,P0082,11,Canned Beans,6,Canned Foods,4,Rwanda Food Traders,Musanze,,,,27,1110,759,20,18
+T0083,SALE,2026-09-22,S0083,,10,Toothpaste 100ml,5,Personal Care,2,FreshMart Suppliers,Kigali,59,Customer 059,Musanze,20,1533,1034,101,28
+T0084,PURCHASE,2026-05-29,,P0084,24,Fresh Milk 1L - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,,,,7,1561,1092,51,34
+T0085,PURCHASE,2026-10-19,,P0085,28,Toothpaste 100ml - Pack 2,5,Personal Care,2,FreshMart Suppliers,Kigali,,,,14,1656,1106,15,27
+T0086,SALE,2026-05-10,S0086,,22,Potato Crisps 50g - Pack 2,2,Snacks,3,East Africa Distributors,Nairobi,44,Customer 044,Musanze,28,607,367,48,35
+T0087,SALE,2026-04-06,S0087,,3,Cola Drink 500ml,1,Beverages,3,East Africa Distributors,Nairobi,26,Customer 026,Rubavu,3,644,423,105,15
+T0088,PURCHASE,2026-04-21,,P0088,28,Toothpaste 100ml - Pack 2,5,Personal Care,2,FreshMart Suppliers,Kigali,,,,9,1656,1106,15,27
+T0089,SALE,2026-01-26,S0089,,26,Laundry Soap - Pack 2,4,Household,5,Prime Household Supply,Kigali,51,Customer 051,Rubavu,28,1242,799,158,29
+T0090,PURCHASE,2026-05-01,,P0090,24,Fresh Milk 1L - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,,,,33,1561,1092,51,34
+T0091,SALE,2026-04-16,S0091,,2,Orange Juice 1L,1,Beverages,8,Sunrise Imports,Rubavu,59,Customer 059,Musanze,33,1873,1294,62,28
+T0092,PURCHASE,2026-05-18,,P0092,40,Potato Crisps 50g - Pack 3,2,Snacks,3,East Africa Distributors,Nairobi,,,,21,569,330,138,26
+T0093,SALE,2026-02-25,S0093,,37,Mineral Water 500ml - Pack 3,1,Beverages,1,Kigali Wholesale Ltd,Kigali,45,Customer 045,Musanze,13,324,222,67,20
+T0094,SALE,2026-10-04,S0094,,21,Cola Drink 500ml - Pack 2,1,Beverages,3,East Africa Distributors,Nairobi,31,Customer 031,Musanze,31,704,421,19,23
+T0095,SALE,2026-06-22,S0095,,38,Orange Juice 1L - Pack 3,1,Beverages,8,Sunrise Imports,Rubavu,20,Customer 020,Muhanga,19,1927,1212,92,10
+T0096,SALE,2026-04-10,S0096,,3,Cola Drink 500ml,1,Beverages,3,East Africa Distributors,Nairobi,48,Customer 048,Huye,28,644,423,105,15
+T0097,PURCHASE,2026-10-07,,P0097,37,Mineral Water 500ml - Pack 3,1,Beverages,1,Kigali Wholesale Ltd,Kigali,,,,14,324,222,67,20
+T0098,SALE,2026-08-19,S0098,,2,Orange Juice 1L,1,Beverages,8,Sunrise Imports,Rubavu,8,Customer 008,Musanze,28,1873,1294,62,28
+T0099,PURCHASE,2026-06-19,,P0099,2,Orange Juice 1L,1,Beverages,8,Sunrise Imports,Rubavu,,,,23,1873,1294,62,28
+T0100,SALE,2026-01-19,S0100,,16,Floor Cleaner 1L,9,Cleaning,10,QuickClean Supplies,Kigali,1,Customer 001,Rwamagana,8,2516,1698,82,13
+T0101,PURCHASE,2026-01-05,,P0101,2,Orange Juice 1L,1,Beverages,8,Sunrise Imports,Rubavu,,,,13,1873,1294,62,28
+T0102,SALE,2026-11-02,S0102,,18,Frozen Chicken 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,29,Customer 029,Rubavu,4,6961,4802,34,24
+T0103,PURCHASE,2026-07-08,,P0103,9,Bath Soap,5,Personal Care,5,Prime Household Supply,Kigali,,,,24,808,499,80,29
+T0104,SALE,2026-08-31,S0104,,6,Fresh Milk 1L,3,Dairy,6,Dairy Direct Rwanda,Huye,59,Customer 059,Musanze,3,1570,1115,87,16
+T0105,SALE,2026-06-07,S0105,,24,Fresh Milk 1L - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,46,Customer 046,Rwamagana,28,1561,1092,51,34
+T0106,SALE,2026-03-04,S0106,,39,Cola Drink 500ml - Pack 3,1,Beverages,3,East Africa Distributors,Nairobi,14,Customer 014,Muhanga,29,753,443,159,26
+T0107,SALE,2026-01-31,S0107,,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,5,Customer 005,Kigali,6,687,378,28,35
+T0108,SALE,2026-07-11,S0108,,24,Fresh Milk 1L - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,34,Customer 034,Huye,32,1561,1092,51,34
+T0109,SALE,2026-07-17,S0109,,37,Mineral Water 500ml - Pack 3,1,Beverages,1,Kigali Wholesale Ltd,Kigali,45,Customer 045,Musanze,13,324,222,67,20
+T0110,SALE,2026-07-07,S0110,,17,Frozen Chips 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,10,Customer 010,Muhanga,11,3295,2427,54,19
+T0111,PURCHASE,2026-02-24,,P0111,20,Orange Juice 1L - Pack 2,1,Beverages,8,Sunrise Imports,Rubavu,,,,20,1836,1207,52,15
+T0112,SALE,2026-03-08,S0112,,30,Canned Peas - Pack 2,6,Canned Foods,9,Green Valley Foods,Rwamagana,44,Customer 044,Musanze,18,1377,879,109,34
+T0113,PURCHASE,2026-04-09,,P0113,40,Potato Crisps 50g - Pack 3,2,Snacks,3,East Africa Distributors,Nairobi,,,,27,569,330,138,26
+T0114,SALE,2026-10-29,S0114,,27,Bath Soap - Pack 2,5,Personal Care,5,Prime Household Supply,Kigali,40,Customer 040,Rwamagana,35,818,495,166,25
+T0115,PURCHASE,2026-05-09,,P0115,39,Cola Drink 500ml - Pack 3,1,Beverages,3,East Africa Distributors,Nairobi,,,,10,753,443,159,26
+T0116,SALE,2026-01-04,S0116,,31,Bread Loaf - Pack 2,7,Bakery,2,FreshMart Suppliers,Kigali,31,Customer 031,Musanze,2,877,573,125,13
+T0117,SALE,2026-01-27,S0117,,36,Frozen Chicken 1kg - Pack 2,10,Frozen Foods,12,FrostLine Distributors,Kigali,11,Customer 011,Rwamagana,33,6770,4885,48,30
+T0118,SALE,2026-06-21,S0118,,11,Canned Beans,6,Canned Foods,4,Rwanda Food Traders,Musanze,6,Customer 006,Huye,28,1110,759,20,18
+T0119,PURCHASE,2026-06-04,,P0119,19,Mineral Water 500ml - Pack 2,1,Beverages,1,Kigali Wholesale Ltd,Kigali,,,,29,360,200,103,15
+T0120,SALE,2026-01-02,S0120,,35,Frozen Chips 1kg - Pack 2,10,Frozen Foods,12,FrostLine Distributors,Kigali,15,Customer 015,Huye,13,3389,2258,42,27
+T0121,PURCHASE,2026-03-05,,P0121,22,Potato Crisps 50g - Pack 2,2,Snacks,3,East Africa Distributors,Nairobi,,,,30,607,367,48,35
+T0122,PURCHASE,2026-06-06,,P0122,5,Chocolate Bar,2,Snacks,11,BestChoice Trading,Muhanga,,,,29,967,594,167,29
+T0123,SALE,2026-09-09,S0123,,40,Potato Crisps 50g - Pack 3,2,Snacks,3,East Africa Distributors,Nairobi,10,Customer 010,Muhanga,30,569,330,138,26
+T0124,SALE,2026-06-15,S0124,,17,Frozen Chips 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,26,Customer 026,Rubavu,13,3295,2427,54,19
+T0125,SALE,2026-03-23,S0125,,17,Frozen Chips 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,50,Customer 050,Huye,18,3295,2427,54,19
+T0126,PURCHASE,2026-08-30,,P0126,10,Toothpaste 100ml,5,Personal Care,2,FreshMart Suppliers,Kigali,,,,35,1533,1034,101,28
+T0127,SALE,2026-09-06,S0127,,22,Potato Crisps 50g - Pack 2,2,Snacks,3,East Africa Distributors,Nairobi,12,Customer 012,Muhanga,34,607,367,48,35
+T0128,PURCHASE,2026-06-22,,P0128,31,Bread Loaf - Pack 2,7,Bakery,2,FreshMart Suppliers,Kigali,,,,11,877,573,125,13
+T0129,SALE,2026-01-19,S0129,,16,Floor Cleaner 1L,9,Cleaning,10,QuickClean Supplies,Kigali,18,Customer 018,Huye,16,2516,1698,82,13
+T0130,SALE,2026-08-23,S0130,,30,Canned Peas - Pack 2,6,Canned Foods,9,Green Valley Foods,Rwamagana,28,Customer 028,Rubavu,32,1377,879,109,34
+T0131,SALE,2026-05-28,S0131,,39,Cola Drink 500ml - Pack 3,1,Beverages,3,East Africa Distributors,Nairobi,40,Customer 040,Rwamagana,1,753,443,159,26
+T0132,PURCHASE,2026-01-30,,P0132,37,Mineral Water 500ml - Pack 3,1,Beverages,1,Kigali Wholesale Ltd,Kigali,,,,16,324,222,67,20
+T0133,PURCHASE,2026-06-05,,P0133,28,Toothpaste 100ml - Pack 2,5,Personal Care,2,FreshMart Suppliers,Kigali,,,,2,1656,1106,15,27
+T0134,SALE,2026-10-04,S0134,,27,Bath Soap - Pack 2,5,Personal Care,5,Prime Household Supply,Kigali,15,Customer 015,Huye,20,818,495,166,25
+T0135,SALE,2026-10-21,S0135,,10,Toothpaste 100ml,5,Personal Care,2,FreshMart Suppliers,Kigali,46,Customer 046,Rwamagana,4,1533,1034,101,28
+T0136,PURCHASE,2026-06-20,,P0136,29,Canned Beans - Pack 2,6,Canned Foods,4,Rwanda Food Traders,Musanze,,,,3,1025,726,46,28
+T0137,SALE,2026-02-24,S0137,,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,48,Customer 048,Huye,7,687,378,28,35
+T0138,PURCHASE,2026-10-08,,P0138,29,Canned Beans - Pack 2,6,Canned Foods,4,Rwanda Food Traders,Musanze,,,,25,1025,726,46,28
+T0139,SALE,2026-04-22,S0139,,31,Bread Loaf - Pack 2,7,Bakery,2,FreshMart Suppliers,Kigali,36,Customer 036,Muhanga,20,877,573,125,13
+T0140,SALE,2026-03-25,S0140,,2,Orange Juice 1L,1,Beverages,8,Sunrise Imports,Rubavu,28,Customer 028,Rubavu,10,1873,1294,62,28
+T0141,SALE,2026-08-06,S0141,,5,Chocolate Bar,2,Snacks,11,BestChoice Trading,Muhanga,31,Customer 031,Musanze,31,967,594,167,29
+T0142,SALE,2026-04-30,S0142,,37,Mineral Water 500ml - Pack 3,1,Beverages,1,Kigali Wholesale Ltd,Kigali,24,Customer 024,Kigali,2,324,222,67,20
+T0143,SALE,2026-07-19,S0143,,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,22,Customer 022,Muhanga,20,687,378,28,35
+T0144,PURCHASE,2026-10-08,,P0144,15,Ballpoint Pen,8,Stationery,7,City Paper Products,Kigali,,,,6,335,112,58,28
+T0145,SALE,2026-11-09,S0145,,21,Cola Drink 500ml - Pack 2,1,Beverages,3,East Africa Distributors,Nairobi,44,Customer 044,Musanze,35,704,421,19,23
+T0146,SALE,2026-07-02,S0146,,7,Yogurt Cup,3,Dairy,6,Dairy Direct Rwanda,Huye,35,Customer 035,Rwamagana,3,526,298,122,33
+T0147,SALE,2026-03-18,S0147,,14,Exercise Book,8,Stationery,7,City Paper Products,Kigali,58,Customer 058,Kigali,11,696,416,98,14
+T0148,SALE,2026-10-26,S0148,,33,Ballpoint Pen - Pack 2,8,Stationery,7,City Paper Products,Kigali,55,Customer 055,Kigali,6,342,114,30,29
+T0149,SALE,2026-04-28,S0149,,24,Fresh Milk 1L - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,20,Customer 020,Muhanga,24,1561,1092,51,34
+T0150,PURCHASE,2026-04-17,,P0150,16,Floor Cleaner 1L,9,Cleaning,10,QuickClean Supplies,Kigali,,,,30,2516,1698,82,13
+T0151,SALE,2026-05-30,S0151,,16,Floor Cleaner 1L,9,Cleaning,10,QuickClean Supplies,Kigali,7,Customer 007,Huye,7,2516,1698,82,13
+T0152,SALE,2026-06-11,S0152,,5,Chocolate Bar,2,Snacks,11,BestChoice Trading,Muhanga,31,Customer 031,Musanze,4,967,594,167,29
+T0153,SALE,2026-11-07,S0153,,38,Orange Juice 1L - Pack 3,1,Beverages,8,Sunrise Imports,Rubavu,34,Customer 034,Huye,17,1927,1212,92,10
+T0154,SALE,2026-07-04,S0154,,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,22,Customer 022,Muhanga,18,687,378,28,35
+T0155,SALE,2026-04-27,S0155,,28,Toothpaste 100ml - Pack 2,5,Personal Care,2,FreshMart Suppliers,Kigali,40,Customer 040,Rwamagana,20,1656,1106,15,27
+T0156,PURCHASE,2026-03-18,,P0156,19,Mineral Water 500ml - Pack 2,1,Beverages,1,Kigali Wholesale Ltd,Kigali,,,,6,360,200,103,15
+T0157,SALE,2026-06-29,S0157,,2,Orange Juice 1L,1,Beverages,8,Sunrise Imports,Rubavu,25,Customer 025,Huye,32,1873,1294,62,28
+T0158,PURCHASE,2026-02-25,,P0158,4,Potato Crisps 50g,2,Snacks,3,East Africa Distributors,Nairobi,,,,13,638,347,82,18
+T0159,PURCHASE,2026-01-21,,P0159,33,Ballpoint Pen - Pack 2,8,Stationery,7,City Paper Products,Kigali,,,,16,342,114,30,29
+T0160,SALE,2026-08-15,S0160,,20,Orange Juice 1L - Pack 2,1,Beverages,8,Sunrise Imports,Rubavu,31,Customer 031,Musanze,24,1836,1207,52,15
+T0161,PURCHASE,2026-09-14,,P0161,11,Canned Beans,6,Canned Foods,4,Rwanda Food Traders,Musanze,,,,15,1110,759,20,18
+T0162,PURCHASE,2026-03-24,,P0162,34,Floor Cleaner 1L - Pack 2,9,Cleaning,10,QuickClean Supplies,Kigali,,,,34,2484,1725,66,21
+T0163,SALE,2026-02-14,S0163,,20,Orange Juice 1L - Pack 2,1,Beverages,8,Sunrise Imports,Rubavu,47,Customer 047,Muhanga,14,1836,1207,52,15
+T0164,SALE,2026-08-29,S0164,,13,Bread Loaf,7,Bakery,2,FreshMart Suppliers,Kigali,3,Customer 003,Muhanga,16,970,627,49,24
+T0165,SALE,2026-03-10,S0165,,15,Ballpoint Pen,8,Stationery,7,City Paper Products,Kigali,14,Customer 014,Muhanga,10,335,112,58,28
+T0166,SALE,2026-07-17,S0166,,5,Chocolate Bar,2,Snacks,11,BestChoice Trading,Muhanga,9,Customer 009,Rwamagana,32,967,594,167,29
+T0167,SALE,2026-11-06,S0167,,18,Frozen Chicken 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,55,Customer 055,Kigali,5,6961,4802,34,24
+T0168,SALE,2026-03-09,S0168,,28,Toothpaste 100ml - Pack 2,5,Personal Care,2,FreshMart Suppliers,Kigali,50,Customer 050,Huye,13,1656,1106,15,27
+T0169,PURCHASE,2026-04-03,,P0169,8,Laundry Soap,4,Household,5,Prime Household Supply,Kigali,,,,34,1183,786,53,19
+T0170,PURCHASE,2026-01-18,,P0170,30,Canned Peas - Pack 2,6,Canned Foods,9,Green Valley Foods,Rwamagana,,,,5,1377,879,109,34
+T0171,SALE,2026-08-25,S0171,,11,Canned Beans,6,Canned Foods,4,Rwanda Food Traders,Musanze,50,Customer 050,Huye,5,1110,759,20,18
+T0172,SALE,2026-07-13,S0172,,17,Frozen Chips 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,21,Customer 021,Musanze,7,3295,2427,54,19
+T0173,PURCHASE,2026-11-06,,P0173,1,Mineral Water 500ml,1,Beverages,1,Kigali Wholesale Ltd,Kigali,,,,30,371,211,119,21
+T0174,SALE,2026-07-05,S0174,,36,Frozen Chicken 1kg - Pack 2,10,Frozen Foods,12,FrostLine Distributors,Kigali,24,Customer 024,Kigali,27,6770,4885,48,30
+T0175,SALE,2026-01-21,S0175,,16,Floor Cleaner 1L,9,Cleaning,10,QuickClean Supplies,Kigali,8,Customer 008,Musanze,17,2516,1698,82,13
+T0176,SALE,2026-04-22,S0176,,37,Mineral Water 500ml - Pack 3,1,Beverages,1,Kigali Wholesale Ltd,Kigali,35,Customer 035,Rwamagana,20,324,222,67,20
+T0177,SALE,2026-08-02,S0177,,29,Canned Beans - Pack 2,6,Canned Foods,4,Rwanda Food Traders,Musanze,23,Customer 023,Rubavu,22,1025,726,46,28
+T0178,PURCHASE,2026-03-07,,P0178,1,Mineral Water 500ml,1,Beverages,1,Kigali Wholesale Ltd,Kigali,,,,15,371,211,119,21
+T0179,PURCHASE,2026-05-26,,P0179,37,Mineral Water 500ml - Pack 3,1,Beverages,1,Kigali Wholesale Ltd,Kigali,,,,33,324,222,67,20
+T0180,SALE,2026-06-30,S0180,,14,Exercise Book,8,Stationery,7,City Paper Products,Kigali,4,Customer 004,Kigali,6,696,416,98,14
+T0181,SALE,2026-09-21,S0181,,16,Floor Cleaner 1L,9,Cleaning,10,QuickClean Supplies,Kigali,2,Customer 002,Rubavu,35,2516,1698,82,13
+T0182,PURCHASE,2026-06-15,,P0182,38,Orange Juice 1L - Pack 3,1,Beverages,8,Sunrise Imports,Rubavu,,,,25,1927,1212,92,10
+T0183,SALE,2026-03-15,S0183,,19,Mineral Water 500ml - Pack 2,1,Beverages,1,Kigali Wholesale Ltd,Kigali,16,Customer 016,Huye,5,360,200,103,15
+T0184,SALE,2026-04-13,S0184,,15,Ballpoint Pen,8,Stationery,7,City Paper Products,Kigali,39,Customer 039,Kigali,11,335,112,58,28
+T0185,SALE,2026-07-08,S0185,,20,Orange Juice 1L - Pack 2,1,Beverages,8,Sunrise Imports,Rubavu,42,Customer 042,Kigali,32,1836,1207,52,15
+T0186,PURCHASE,2026-08-11,,P0186,16,Floor Cleaner 1L,9,Cleaning,10,QuickClean Supplies,Kigali,,,,25,2516,1698,82,13
+T0187,SALE,2026-03-24,S0187,,35,Frozen Chips 1kg - Pack 2,10,Frozen Foods,12,FrostLine Distributors,Kigali,14,Customer 014,Muhanga,6,3389,2258,42,27
+T0188,SALE,2026-04-13,S0188,,6,Fresh Milk 1L,3,Dairy,6,Dairy Direct Rwanda,Huye,25,Customer 025,Huye,9,1570,1115,87,16
+T0189,PURCHASE,2026-07-24,,P0189,28,Toothpaste 100ml - Pack 2,5,Personal Care,2,FreshMart Suppliers,Kigali,,,,13,1656,1106,15,27
+T0190,PURCHASE,2026-10-31,,P0190,33,Ballpoint Pen - Pack 2,8,Stationery,7,City Paper Products,Kigali,,,,26,342,114,30,29
+T0191,SALE,2026-09-09,S0191,,14,Exercise Book,8,Stationery,7,City Paper Products,Kigali,6,Customer 006,Huye,15,696,416,98,14
+T0192,PURCHASE,2026-04-23,,P0192,8,Laundry Soap,4,Household,5,Prime Household Supply,Kigali,,,,23,1183,786,53,19
+T0193,SALE,2026-03-18,S0193,,18,Frozen Chicken 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,21,Customer 021,Musanze,13,6961,4802,34,24
+T0194,SALE,2026-08-05,S0194,,14,Exercise Book,8,Stationery,7,City Paper Products,Kigali,7,Customer 007,Huye,25,696,416,98,14
+T0195,SALE,2026-06-09,S0195,,12,Canned Peas,6,Canned Foods,9,Green Valley Foods,Rwamagana,3,Customer 003,Muhanga,28,1278,870,43,34
+T0196,SALE,2026-04-21,S0196,,25,Yogurt Cup - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,58,Customer 058,Kigali,35,451,319,59,24
+T0197,SALE,2026-08-03,S0197,,19,Mineral Water 500ml - Pack 2,1,Beverages,1,Kigali Wholesale Ltd,Kigali,59,Customer 059,Musanze,30,360,200,103,15
+T0198,SALE,2026-05-06,S0198,,33,Ballpoint Pen - Pack 2,8,Stationery,7,City Paper Products,Kigali,4,Customer 004,Kigali,14,342,114,30,29
+T0199,SALE,2026-06-02,S0199,,26,Laundry Soap - Pack 2,4,Household,5,Prime Household Supply,Kigali,10,Customer 010,Muhanga,1,1242,799,158,29
+T0200,SALE,2026-04-29,S0200,,22,Potato Crisps 50g - Pack 2,2,Snacks,3,East Africa Distributors,Nairobi,50,Customer 050,Huye,22,607,367,48,35
+T0201,PURCHASE,2026-04-23,,P0201,34,Floor Cleaner 1L - Pack 2,9,Cleaning,10,QuickClean Supplies,Kigali,,,,18,2484,1725,66,21
+T0202,SALE,2026-10-03,S0202,,24,Fresh Milk 1L - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,46,Customer 046,Rwamagana,32,1561,1092,51,34
+T0203,PURCHASE,2026-06-18,,P0203,16,Floor Cleaner 1L,9,Cleaning,10,QuickClean Supplies,Kigali,,,,29,2516,1698,82,13
+T0204,SALE,2026-05-24,S0204,,38,Orange Juice 1L - Pack 3,1,Beverages,8,Sunrise Imports,Rubavu,43,Customer 043,Rubavu,33,1927,1212,92,10
+T0205,SALE,2026-03-03,S0205,,28,Toothpaste 100ml - Pack 2,5,Personal Care,2,FreshMart Suppliers,Kigali,11,Customer 011,Rwamagana,9,1656,1106,15,27
+T0206,SALE,2026-04-08,S0206,,11,Canned Beans,6,Canned Foods,4,Rwanda Food Traders,Musanze,48,Customer 048,Huye,32,1110,759,20,18
+T0207,PURCHASE,2026-07-06,,P0207,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,,,,14,687,378,28,35
+T0208,PURCHASE,2026-08-16,,P0208,37,Mineral Water 500ml - Pack 3,1,Beverages,1,Kigali Wholesale Ltd,Kigali,,,,32,324,222,67,20
+T0209,SALE,2026-02-16,S0209,,37,Mineral Water 500ml - Pack 3,1,Beverages,1,Kigali Wholesale Ltd,Kigali,27,Customer 027,Musanze,18,324,222,67,20
+T0210,PURCHASE,2026-01-22,,P0210,33,Ballpoint Pen - Pack 2,8,Stationery,7,City Paper Products,Kigali,,,,30,342,114,30,29
+T0211,PURCHASE,2026-04-24,,P0211,38,Orange Juice 1L - Pack 3,1,Beverages,8,Sunrise Imports,Rubavu,,,,10,1927,1212,92,10
+T0212,SALE,2026-08-09,S0212,,26,Laundry Soap - Pack 2,4,Household,5,Prime Household Supply,Kigali,2,Customer 002,Rubavu,8,1242,799,158,29
+T0213,SALE,2026-05-14,S0213,,25,Yogurt Cup - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,1,Customer 001,Rwamagana,14,451,319,59,24
+T0214,SALE,2026-10-10,S0214,,24,Fresh Milk 1L - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,16,Customer 016,Huye,2,1561,1092,51,34
+T0215,PURCHASE,2026-05-15,,P0215,26,Laundry Soap - Pack 2,4,Household,5,Prime Household Supply,Kigali,,,,4,1242,799,158,29
+T0216,PURCHASE,2026-07-08,,P0216,7,Yogurt Cup,3,Dairy,6,Dairy Direct Rwanda,Huye,,,,32,526,298,122,33
+T0217,PURCHASE,2026-05-12,,P0217,20,Orange Juice 1L - Pack 2,1,Beverages,8,Sunrise Imports,Rubavu,,,,12,1836,1207,52,15
+T0218,PURCHASE,2026-07-22,,P0218,23,Chocolate Bar - Pack 2,2,Snacks,11,BestChoice Trading,Muhanga,,,,5,887,546,114,10
+T0219,SALE,2026-11-12,S0219,,22,Potato Crisps 50g - Pack 2,2,Snacks,3,East Africa Distributors,Nairobi,53,Customer 053,Rubavu,31,607,367,48,35
+T0220,PURCHASE,2026-01-10,,P0220,8,Laundry Soap,4,Household,5,Prime Household Supply,Kigali,,,,23,1183,786,53,19
+T0221,SALE,2026-02-22,S0221,,30,Canned Peas - Pack 2,6,Canned Foods,9,Green Valley Foods,Rwamagana,21,Customer 021,Musanze,7,1377,879,109,34
+T0222,PURCHASE,2026-04-05,,P0222,13,Bread Loaf,7,Bakery,2,FreshMart Suppliers,Kigali,,,,9,970,627,49,24
+T0223,PURCHASE,2026-04-19,,P0223,16,Floor Cleaner 1L,9,Cleaning,10,QuickClean Supplies,Kigali,,,,32,2516,1698,82,13
+T0224,PURCHASE,2026-07-10,,P0224,8,Laundry Soap,4,Household,5,Prime Household Supply,Kigali,,,,23,1183,786,53,19
+T0225,PURCHASE,2026-04-11,,P0225,14,Exercise Book,8,Stationery,7,City Paper Products,Kigali,,,,23,696,416,98,14
+T0226,PURCHASE,2026-03-15,,P0226,25,Yogurt Cup - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,,,,29,451,319,59,24
+T0227,SALE,2026-02-26,S0227,,35,Frozen Chips 1kg - Pack 2,10,Frozen Foods,12,FrostLine Distributors,Kigali,41,Customer 041,Kigali,26,3389,2258,42,27
+T0228,SALE,2026-07-22,S0228,,9,Bath Soap,5,Personal Care,5,Prime Household Supply,Kigali,5,Customer 005,Kigali,12,808,499,80,29
+T0229,SALE,2026-02-22,S0229,,29,Canned Beans - Pack 2,6,Canned Foods,4,Rwanda Food Traders,Musanze,44,Customer 044,Musanze,22,1025,726,46,28
+T0230,SALE,2026-03-06,S0230,,13,Bread Loaf,7,Bakery,2,FreshMart Suppliers,Kigali,38,Customer 038,Muhanga,14,970,627,49,24
+T0231,SALE,2026-02-09,S0231,,12,Canned Peas,6,Canned Foods,9,Green Valley Foods,Rwamagana,21,Customer 021,Musanze,13,1278,870,43,34
+T0232,PURCHASE,2026-01-01,,P0232,22,Potato Crisps 50g - Pack 2,2,Snacks,3,East Africa Distributors,Nairobi,,,,22,607,367,48,35
+T0233,SALE,2026-02-21,S0233,,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,26,Customer 026,Rubavu,30,687,378,28,35
+T0234,SALE,2026-02-26,S0234,,11,Canned Beans,6,Canned Foods,4,Rwanda Food Traders,Musanze,59,Customer 059,Musanze,20,1110,759,20,18
+T0235,PURCHASE,2026-06-11,,P0235,17,Frozen Chips 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,,,,11,3295,2427,54,19
+T0236,PURCHASE,2026-06-12,,P0236,2,Orange Juice 1L,1,Beverages,8,Sunrise Imports,Rubavu,,,,18,1873,1294,62,28
+T0237,SALE,2026-09-02,S0237,,30,Canned Peas - Pack 2,6,Canned Foods,9,Green Valley Foods,Rwamagana,18,Customer 018,Huye,2,1377,879,109,34
+T0238,PURCHASE,2026-03-17,,P0238,10,Toothpaste 100ml,5,Personal Care,2,FreshMart Suppliers,Kigali,,,,4,1533,1034,101,28
+T0239,SALE,2026-05-31,S0239,,30,Canned Peas - Pack 2,6,Canned Foods,9,Green Valley Foods,Rwamagana,5,Customer 005,Kigali,7,1377,879,109,34
+T0240,PURCHASE,2026-03-09,,P0240,29,Canned Beans - Pack 2,6,Canned Foods,4,Rwanda Food Traders,Musanze,,,,29,1025,726,46,28
+T0241,SALE,2026-06-18,S0241,,37,Mineral Water 500ml - Pack 3,1,Beverages,1,Kigali Wholesale Ltd,Kigali,46,Customer 046,Rwamagana,24,324,222,67,20
+T0242,SALE,2026-05-02,S0242,,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,50,Customer 050,Huye,20,687,378,28,35
+T0243,SALE,2026-11-10,S0243,,3,Cola Drink 500ml,1,Beverages,3,East Africa Distributors,Nairobi,49,Customer 049,Musanze,17,644,423,105,15
+T0244,SALE,2026-01-07,S0244,,28,Toothpaste 100ml - Pack 2,5,Personal Care,2,FreshMart Suppliers,Kigali,46,Customer 046,Rwamagana,35,1656,1106,15,27
+T0245,SALE,2026-09-09,S0245,,39,Cola Drink 500ml - Pack 3,1,Beverages,3,East Africa Distributors,Nairobi,60,Customer 060,Musanze,8,753,443,159,26
+T0246,SALE,2026-07-14,S0246,,13,Bread Loaf,7,Bakery,2,FreshMart Suppliers,Kigali,43,Customer 043,Rubavu,8,970,627,49,24
+T0247,SALE,2026-11-07,S0247,,15,Ballpoint Pen,8,Stationery,7,City Paper Products,Kigali,9,Customer 009,Rwamagana,1,335,112,58,28
+T0248,SALE,2026-03-27,S0248,,6,Fresh Milk 1L,3,Dairy,6,Dairy Direct Rwanda,Huye,45,Customer 045,Musanze,10,1570,1115,87,16
+T0249,PURCHASE,2026-08-03,,P0249,33,Ballpoint Pen - Pack 2,8,Stationery,7,City Paper Products,Kigali,,,,4,342,114,30,29
+T0250,PURCHASE,2026-09-23,,P0250,24,Fresh Milk 1L - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,,,,25,1561,1092,51,34
+T0251,SALE,2026-04-05,S0251,,11,Canned Beans,6,Canned Foods,4,Rwanda Food Traders,Musanze,38,Customer 038,Muhanga,26,1110,759,20,18
+T0252,PURCHASE,2026-02-14,,P0252,7,Yogurt Cup,3,Dairy,6,Dairy Direct Rwanda,Huye,,,,22,526,298,122,33
+T0253,PURCHASE,2026-05-29,,P0253,28,Toothpaste 100ml - Pack 2,5,Personal Care,2,FreshMart Suppliers,Kigali,,,,13,1656,1106,15,27
+T0254,SALE,2026-05-21,S0254,,7,Yogurt Cup,3,Dairy,6,Dairy Direct Rwanda,Huye,44,Customer 044,Musanze,31,526,298,122,33
+T0255,SALE,2026-01-22,S0255,,33,Ballpoint Pen - Pack 2,8,Stationery,7,City Paper Products,Kigali,37,Customer 037,Rwamagana,22,342,114,30,29
+T0256,PURCHASE,2026-03-08,,P0256,35,Frozen Chips 1kg - Pack 2,10,Frozen Foods,12,FrostLine Distributors,Kigali,,,,17,3389,2258,42,27
+T0257,PURCHASE,2026-08-05,,P0257,14,Exercise Book,8,Stationery,7,City Paper Products,Kigali,,,,31,696,416,98,14
+T0258,PURCHASE,2026-03-26,,P0258,4,Potato Crisps 50g,2,Snacks,3,East Africa Distributors,Nairobi,,,,26,638,347,82,18
+T0259,SALE,2026-03-04,S0259,,36,Frozen Chicken 1kg - Pack 2,10,Frozen Foods,12,FrostLine Distributors,Kigali,26,Customer 026,Rubavu,14,6770,4885,48,30
+T0260,SALE,2026-02-15,S0260,,15,Ballpoint Pen,8,Stationery,7,City Paper Products,Kigali,8,Customer 008,Musanze,20,335,112,58,28
+T0261,SALE,2026-05-22,S0261,,20,Orange Juice 1L - Pack 2,1,Beverages,8,Sunrise Imports,Rubavu,6,Customer 006,Huye,5,1836,1207,52,15
+T0262,SALE,2026-06-29,S0262,,15,Ballpoint Pen,8,Stationery,7,City Paper Products,Kigali,43,Customer 043,Rubavu,8,335,112,58,28
+T0263,PURCHASE,2026-08-20,,P0263,9,Bath Soap,5,Personal Care,5,Prime Household Supply,Kigali,,,,26,808,499,80,29
+T0264,SALE,2026-10-07,S0264,,34,Floor Cleaner 1L - Pack 2,9,Cleaning,10,QuickClean Supplies,Kigali,14,Customer 014,Muhanga,32,2484,1725,66,21
+T0265,SALE,2026-09-10,S0265,,19,Mineral Water 500ml - Pack 2,1,Beverages,1,Kigali Wholesale Ltd,Kigali,29,Customer 029,Rubavu,16,360,200,103,15
+T0266,SALE,2026-03-03,S0266,,13,Bread Loaf,7,Bakery,2,FreshMart Suppliers,Kigali,14,Customer 014,Muhanga,24,970,627,49,24
+T0267,PURCHASE,2026-04-16,,P0267,20,Orange Juice 1L - Pack 2,1,Beverages,8,Sunrise Imports,Rubavu,,,,30,1836,1207,52,15
+T0268,SALE,2026-11-12,S0268,,6,Fresh Milk 1L,3,Dairy,6,Dairy Direct Rwanda,Huye,8,Customer 008,Musanze,17,1570,1115,87,16
+T0269,SALE,2026-06-10,S0269,,14,Exercise Book,8,Stationery,7,City Paper Products,Kigali,2,Customer 002,Rubavu,16,696,416,98,14
+T0270,SALE,2026-09-16,S0270,,8,Laundry Soap,4,Household,5,Prime Household Supply,Kigali,53,Customer 053,Rubavu,34,1183,786,53,19
+T0271,SALE,2026-10-30,S0271,,10,Toothpaste 100ml,5,Personal Care,2,FreshMart Suppliers,Kigali,52,Customer 052,Muhanga,6,1533,1034,101,28
+T0272,PURCHASE,2026-01-12,,P0272,12,Canned Peas,6,Canned Foods,9,Green Valley Foods,Rwamagana,,,,20,1278,870,43,34
+T0273,PURCHASE,2026-06-04,,P0273,15,Ballpoint Pen,8,Stationery,7,City Paper Products,Kigali,,,,9,335,112,58,28
+T0274,PURCHASE,2026-04-02,,P0274,6,Fresh Milk 1L,3,Dairy,6,Dairy Direct Rwanda,Huye,,,,9,1570,1115,87,16
+T0275,SALE,2026-01-27,S0275,,2,Orange Juice 1L,1,Beverages,8,Sunrise Imports,Rubavu,6,Customer 006,Huye,6,1873,1294,62,28
+T0276,SALE,2026-04-18,S0276,,3,Cola Drink 500ml,1,Beverages,3,East Africa Distributors,Nairobi,54,Customer 054,Rubavu,7,644,423,105,15
+T0277,SALE,2026-10-17,S0277,,33,Ballpoint Pen - Pack 2,8,Stationery,7,City Paper Products,Kigali,36,Customer 036,Muhanga,35,342,114,30,29
+T0278,PURCHASE,2026-11-05,,P0278,13,Bread Loaf,7,Bakery,2,FreshMart Suppliers,Kigali,,,,30,970,627,49,24
+T0279,SALE,2026-03-10,S0279,,31,Bread Loaf - Pack 2,7,Bakery,2,FreshMart Suppliers,Kigali,24,Customer 024,Kigali,30,877,573,125,13
+T0280,PURCHASE,2026-02-18,,P0280,17,Frozen Chips 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,,,,16,3295,2427,54,19
+T0281,SALE,2026-02-05,S0281,,11,Canned Beans,6,Canned Foods,4,Rwanda Food Traders,Musanze,58,Customer 058,Kigali,10,1110,759,20,18
+T0282,SALE,2026-11-10,S0282,,9,Bath Soap,5,Personal Care,5,Prime Household Supply,Kigali,21,Customer 021,Musanze,15,808,499,80,29
+T0283,SALE,2026-11-15,S0283,,23,Chocolate Bar - Pack 2,2,Snacks,11,BestChoice Trading,Muhanga,9,Customer 009,Rwamagana,32,887,546,114,10
+T0284,SALE,2026-08-25,S0284,,8,Laundry Soap,4,Household,5,Prime Household Supply,Kigali,32,Customer 032,Rwamagana,15,1183,786,53,19
+T0285,SALE,2026-06-05,S0285,,19,Mineral Water 500ml - Pack 2,1,Beverages,1,Kigali Wholesale Ltd,Kigali,46,Customer 046,Rwamagana,30,360,200,103,15
+T0286,PURCHASE,2026-01-26,,P0286,24,Fresh Milk 1L - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,,,,20,1561,1092,51,34
+T0287,PURCHASE,2026-01-26,,P0287,39,Cola Drink 500ml - Pack 3,1,Beverages,3,East Africa Distributors,Nairobi,,,,25,753,443,159,26
+T0288,SALE,2026-02-06,S0288,,25,Yogurt Cup - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,5,Customer 005,Kigali,25,451,319,59,24
+T0289,SALE,2026-06-06,S0289,,27,Bath Soap - Pack 2,5,Personal Care,5,Prime Household Supply,Kigali,1,Customer 001,Rwamagana,9,818,495,166,25
+T0290,SALE,2026-02-08,S0290,,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,59,Customer 059,Musanze,10,687,378,28,35
+T0291,SALE,2026-08-11,S0291,,38,Orange Juice 1L - Pack 3,1,Beverages,8,Sunrise Imports,Rubavu,49,Customer 049,Musanze,20,1927,1212,92,10
+T0292,PURCHASE,2026-11-16,,P0292,36,Frozen Chicken 1kg - Pack 2,10,Frozen Foods,12,FrostLine Distributors,Kigali,,,,23,6770,4885,48,30
+T0293,PURCHASE,2026-05-12,,P0293,33,Ballpoint Pen - Pack 2,8,Stationery,7,City Paper Products,Kigali,,,,13,342,114,30,29
+T0294,SALE,2026-07-04,S0294,,7,Yogurt Cup,3,Dairy,6,Dairy Direct Rwanda,Huye,32,Customer 032,Rwamagana,11,526,298,122,33
+T0295,SALE,2026-01-11,S0295,,6,Fresh Milk 1L,3,Dairy,6,Dairy Direct Rwanda,Huye,12,Customer 012,Muhanga,14,1570,1115,87,16
+T0296,SALE,2026-03-01,S0296,,25,Yogurt Cup - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,31,Customer 031,Musanze,35,451,319,59,24
+T0297,SALE,2026-11-08,S0297,,2,Orange Juice 1L,1,Beverages,8,Sunrise Imports,Rubavu,24,Customer 024,Kigali,19,1873,1294,62,28
+T0298,SALE,2026-07-19,S0298,,39,Cola Drink 500ml - Pack 3,1,Beverages,3,East Africa Distributors,Nairobi,35,Customer 035,Rwamagana,32,753,443,159,26
+T0299,SALE,2026-02-18,S0299,,16,Floor Cleaner 1L,9,Cleaning,10,QuickClean Supplies,Kigali,38,Customer 038,Muhanga,24,2516,1698,82,13
+T0300,SALE,2026-06-11,S0300,,17,Frozen Chips 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,56,Customer 056,Huye,24,3295,2427,54,19
+T0301,PURCHASE,2026-04-04,,P0301,15,Ballpoint Pen,8,Stationery,7,City Paper Products,Kigali,,,,30,335,112,58,28
+T0302,PURCHASE,2026-07-12,,P0302,11,Canned Beans,6,Canned Foods,4,Rwanda Food Traders,Musanze,,,,29,1110,759,20,18
+T0303,SALE,2026-03-19,S0303,,6,Fresh Milk 1L,3,Dairy,6,Dairy Direct Rwanda,Huye,9,Customer 009,Rwamagana,12,1570,1115,87,16
+T0304,PURCHASE,2026-04-10,,P0304,37,Mineral Water 500ml - Pack 3,1,Beverages,1,Kigali Wholesale Ltd,Kigali,,,,6,324,222,67,20
+T0305,SALE,2026-07-31,S0305,,25,Yogurt Cup - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,48,Customer 048,Huye,9,451,319,59,24
+T0306,PURCHASE,2026-10-22,,P0306,20,Orange Juice 1L - Pack 2,1,Beverages,8,Sunrise Imports,Rubavu,,,,30,1836,1207,52,15
+T0307,SALE,2026-07-03,S0307,,37,Mineral Water 500ml - Pack 3,1,Beverages,1,Kigali Wholesale Ltd,Kigali,31,Customer 031,Musanze,19,324,222,67,20
+T0308,PURCHASE,2026-02-11,,P0308,31,Bread Loaf - Pack 2,7,Bakery,2,FreshMart Suppliers,Kigali,,,,13,877,573,125,13
+T0309,SALE,2026-06-16,S0309,,28,Toothpaste 100ml - Pack 2,5,Personal Care,2,FreshMart Suppliers,Kigali,9,Customer 009,Rwamagana,26,1656,1106,15,27
+T0310,SALE,2026-05-04,S0310,,22,Potato Crisps 50g - Pack 2,2,Snacks,3,East Africa Distributors,Nairobi,10,Customer 010,Muhanga,18,607,367,48,35
+T0311,SALE,2026-11-05,S0311,,16,Floor Cleaner 1L,9,Cleaning,10,QuickClean Supplies,Kigali,29,Customer 029,Rubavu,27,2516,1698,82,13
+T0312,SALE,2026-04-29,S0312,,5,Chocolate Bar,2,Snacks,11,BestChoice Trading,Muhanga,6,Customer 006,Huye,30,967,594,167,29
+T0313,SALE,2026-07-01,S0313,,6,Fresh Milk 1L,3,Dairy,6,Dairy Direct Rwanda,Huye,51,Customer 051,Rubavu,34,1570,1115,87,16
+T0314,PURCHASE,2026-06-16,,P0314,4,Potato Crisps 50g,2,Snacks,3,East Africa Distributors,Nairobi,,,,8,638,347,82,18
+T0315,SALE,2026-06-02,S0315,,8,Laundry Soap,4,Household,5,Prime Household Supply,Kigali,44,Customer 044,Musanze,4,1183,786,53,19
+T0316,PURCHASE,2026-01-11,,P0316,16,Floor Cleaner 1L,9,Cleaning,10,QuickClean Supplies,Kigali,,,,17,2516,1698,82,13
+T0317,SALE,2026-02-06,S0317,,11,Canned Beans,6,Canned Foods,4,Rwanda Food Traders,Musanze,7,Customer 007,Huye,12,1110,759,20,18
+T0318,PURCHASE,2026-07-15,,P0318,9,Bath Soap,5,Personal Care,5,Prime Household Supply,Kigali,,,,21,808,499,80,29
+T0319,SALE,2026-06-12,S0319,,26,Laundry Soap - Pack 2,4,Household,5,Prime Household Supply,Kigali,51,Customer 051,Rubavu,22,1242,799,158,29
+T0320,SALE,2026-09-22,S0320,,14,Exercise Book,8,Stationery,7,City Paper Products,Kigali,10,Customer 010,Muhanga,31,696,416,98,14
+T0321,SALE,2026-03-29,S0321,,7,Yogurt Cup,3,Dairy,6,Dairy Direct Rwanda,Huye,7,Customer 007,Huye,29,526,298,122,33
+T0322,SALE,2026-10-09,S0322,,31,Bread Loaf - Pack 2,7,Bakery,2,FreshMart Suppliers,Kigali,18,Customer 018,Huye,11,877,573,125,13
+T0323,SALE,2026-01-06,S0323,,14,Exercise Book,8,Stationery,7,City Paper Products,Kigali,13,Customer 013,Huye,9,696,416,98,14
+T0324,PURCHASE,2026-01-17,,P0324,15,Ballpoint Pen,8,Stationery,7,City Paper Products,Kigali,,,,13,335,112,58,28
+T0325,SALE,2026-11-06,S0325,,24,Fresh Milk 1L - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,20,Customer 020,Muhanga,18,1561,1092,51,34
+T0326,SALE,2026-05-27,S0326,,3,Cola Drink 500ml,1,Beverages,3,East Africa Distributors,Nairobi,36,Customer 036,Muhanga,11,644,423,105,15
+T0327,SALE,2026-03-28,S0327,,27,Bath Soap - Pack 2,5,Personal Care,5,Prime Household Supply,Kigali,27,Customer 027,Musanze,26,818,495,166,25
+T0328,SALE,2026-02-07,S0328,,36,Frozen Chicken 1kg - Pack 2,10,Frozen Foods,12,FrostLine Distributors,Kigali,16,Customer 016,Huye,29,6770,4885,48,30
+T0329,PURCHASE,2026-05-17,,P0329,2,Orange Juice 1L,1,Beverages,8,Sunrise Imports,Rubavu,,,,2,1873,1294,62,28
+T0330,SALE,2026-09-27,S0330,,4,Potato Crisps 50g,2,Snacks,3,East Africa Distributors,Nairobi,40,Customer 040,Rwamagana,21,638,347,82,18
+T0331,PURCHASE,2026-04-03,,P0331,12,Canned Peas,6,Canned Foods,9,Green Valley Foods,Rwamagana,,,,18,1278,870,43,34
+T0332,SALE,2026-07-22,S0332,,26,Laundry Soap - Pack 2,4,Household,5,Prime Household Supply,Kigali,52,Customer 052,Muhanga,7,1242,799,158,29
+T0333,SALE,2026-11-05,S0333,,40,Potato Crisps 50g - Pack 3,2,Snacks,3,East Africa Distributors,Nairobi,21,Customer 021,Musanze,12,569,330,138,26
+T0334,SALE,2026-06-24,S0334,,23,Chocolate Bar - Pack 2,2,Snacks,11,BestChoice Trading,Muhanga,11,Customer 011,Rwamagana,31,887,546,114,10
+T0335,SALE,2026-08-12,S0335,,23,Chocolate Bar - Pack 2,2,Snacks,11,BestChoice Trading,Muhanga,23,Customer 023,Rubavu,16,887,546,114,10
+T0336,SALE,2026-09-08,S0336,,15,Ballpoint Pen,8,Stationery,7,City Paper Products,Kigali,45,Customer 045,Musanze,21,335,112,58,28
+T0337,SALE,2026-04-17,S0337,,5,Chocolate Bar,2,Snacks,11,BestChoice Trading,Muhanga,30,Customer 030,Muhanga,7,967,594,167,29
+T0338,PURCHASE,2026-09-11,,P0338,40,Potato Crisps 50g - Pack 3,2,Snacks,3,East Africa Distributors,Nairobi,,,,1,569,330,138,26
+T0339,SALE,2026-08-29,S0339,,18,Frozen Chicken 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,5,Customer 005,Kigali,1,6961,4802,34,24
+T0340,SALE,2026-09-03,S0340,,9,Bath Soap,5,Personal Care,5,Prime Household Supply,Kigali,11,Customer 011,Rwamagana,23,808,499,80,29
+T0341,SALE,2026-07-14,S0341,,19,Mineral Water 500ml - Pack 2,1,Beverages,1,Kigali Wholesale Ltd,Kigali,34,Customer 034,Huye,27,360,200,103,15
+T0342,PURCHASE,2026-09-08,,P0342,19,Mineral Water 500ml - Pack 2,1,Beverages,1,Kigali Wholesale Ltd,Kigali,,,,27,360,200,103,15
+T0343,SALE,2026-10-19,S0343,,38,Orange Juice 1L - Pack 3,1,Beverages,8,Sunrise Imports,Rubavu,5,Customer 005,Kigali,20,1927,1212,92,10
+T0344,PURCHASE,2026-10-13,,P0344,10,Toothpaste 100ml,5,Personal Care,2,FreshMart Suppliers,Kigali,,,,26,1533,1034,101,28
+T0345,PURCHASE,2026-05-30,,P0345,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,,,,8,687,378,28,35
+T0346,PURCHASE,2026-02-01,,P0346,2,Orange Juice 1L,1,Beverages,8,Sunrise Imports,Rubavu,,,,26,1873,1294,62,28
+T0347,PURCHASE,2026-04-19,,P0347,12,Canned Peas,6,Canned Foods,9,Green Valley Foods,Rwamagana,,,,8,1278,870,43,34
+T0348,SALE,2026-04-04,S0348,,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,25,Customer 025,Huye,17,687,378,28,35
+T0349,SALE,2026-01-12,S0349,,9,Bath Soap,5,Personal Care,5,Prime Household Supply,Kigali,6,Customer 006,Huye,9,808,499,80,29
+T0350,PURCHASE,2026-03-16,,P0350,40,Potato Crisps 50g - Pack 3,2,Snacks,3,East Africa Distributors,Nairobi,,,,32,569,330,138,26
+T0351,SALE,2026-03-17,S0351,,31,Bread Loaf - Pack 2,7,Bakery,2,FreshMart Suppliers,Kigali,41,Customer 041,Kigali,24,877,573,125,13
+T0352,PURCHASE,2026-05-04,,P0352,24,Fresh Milk 1L - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,,,,24,1561,1092,51,34
+T0353,SALE,2026-03-24,S0353,,33,Ballpoint Pen - Pack 2,8,Stationery,7,City Paper Products,Kigali,47,Customer 047,Muhanga,13,342,114,30,29
+T0354,PURCHASE,2026-03-19,,P0354,18,Frozen Chicken 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,,,,21,6961,4802,34,24
+T0355,SALE,2026-01-12,S0355,,5,Chocolate Bar,2,Snacks,11,BestChoice Trading,Muhanga,15,Customer 015,Huye,10,967,594,167,29
+T0356,SALE,2026-04-12,S0356,,4,Potato Crisps 50g,2,Snacks,3,East Africa Distributors,Nairobi,27,Customer 027,Musanze,29,638,347,82,18
+T0357,SALE,2026-01-07,S0357,,38,Orange Juice 1L - Pack 3,1,Beverages,8,Sunrise Imports,Rubavu,3,Customer 003,Muhanga,12,1927,1212,92,10
+T0358,SALE,2026-07-16,S0358,,28,Toothpaste 100ml - Pack 2,5,Personal Care,2,FreshMart Suppliers,Kigali,12,Customer 012,Muhanga,28,1656,1106,15,27
+T0359,PURCHASE,2026-08-18,,P0359,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,,,,10,687,378,28,35
+T0360,SALE,2026-04-07,S0360,,22,Potato Crisps 50g - Pack 2,2,Snacks,3,East Africa Distributors,Nairobi,8,Customer 008,Musanze,31,607,367,48,35
+T0361,SALE,2026-01-06,S0361,,23,Chocolate Bar - Pack 2,2,Snacks,11,BestChoice Trading,Muhanga,17,Customer 017,Musanze,29,887,546,114,10
+T0362,SALE,2026-02-17,S0362,,10,Toothpaste 100ml,5,Personal Care,2,FreshMart Suppliers,Kigali,7,Customer 007,Huye,18,1533,1034,101,28
+T0363,SALE,2026-03-30,S0363,,2,Orange Juice 1L,1,Beverages,8,Sunrise Imports,Rubavu,8,Customer 008,Musanze,23,1873,1294,62,28
+T0364,SALE,2026-01-31,S0364,,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,60,Customer 060,Musanze,16,687,378,28,35
+T0365,SALE,2026-07-24,S0365,,28,Toothpaste 100ml - Pack 2,5,Personal Care,2,FreshMart Suppliers,Kigali,5,Customer 005,Kigali,18,1656,1106,15,27
+T0366,SALE,2026-04-06,S0366,,38,Orange Juice 1L - Pack 3,1,Beverages,8,Sunrise Imports,Rubavu,30,Customer 030,Muhanga,13,1927,1212,92,10
+T0367,SALE,2026-05-28,S0367,,5,Chocolate Bar,2,Snacks,11,BestChoice Trading,Muhanga,15,Customer 015,Huye,34,967,594,167,29
+T0368,SALE,2026-01-20,S0368,,17,Frozen Chips 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,39,Customer 039,Kigali,30,3295,2427,54,19
+T0369,SALE,2026-09-11,S0369,,12,Canned Peas,6,Canned Foods,9,Green Valley Foods,Rwamagana,14,Customer 014,Muhanga,24,1278,870,43,34
+T0370,PURCHASE,2026-03-14,,P0370,23,Chocolate Bar - Pack 2,2,Snacks,11,BestChoice Trading,Muhanga,,,,34,887,546,114,10
+T0371,PURCHASE,2026-06-01,,P0371,6,Fresh Milk 1L,3,Dairy,6,Dairy Direct Rwanda,Huye,,,,32,1570,1115,87,16
+T0372,PURCHASE,2026-03-15,,P0372,29,Canned Beans - Pack 2,6,Canned Foods,4,Rwanda Food Traders,Musanze,,,,1,1025,726,46,28
+T0373,SALE,2026-03-22,S0373,,25,Yogurt Cup - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,25,Customer 025,Huye,12,451,319,59,24
+T0374,SALE,2026-05-16,S0374,,31,Bread Loaf - Pack 2,7,Bakery,2,FreshMart Suppliers,Kigali,53,Customer 053,Rubavu,10,877,573,125,13
+T0375,PURCHASE,2026-01-10,,P0375,3,Cola Drink 500ml,1,Beverages,3,East Africa Distributors,Nairobi,,,,14,644,423,105,15
+T0376,SALE,2026-10-14,S0376,,27,Bath Soap - Pack 2,5,Personal Care,5,Prime Household Supply,Kigali,52,Customer 052,Muhanga,1,818,495,166,25
+T0377,SALE,2026-02-17,S0377,,40,Potato Crisps 50g - Pack 3,2,Snacks,3,East Africa Distributors,Nairobi,34,Customer 034,Huye,27,569,330,138,26
+T0378,SALE,2026-01-17,S0378,,16,Floor Cleaner 1L,9,Cleaning,10,QuickClean Supplies,Kigali,41,Customer 041,Kigali,18,2516,1698,82,13
+T0379,SALE,2026-05-24,S0379,,36,Frozen Chicken 1kg - Pack 2,10,Frozen Foods,12,FrostLine Distributors,Kigali,41,Customer 041,Kigali,19,6770,4885,48,30
+T0380,SALE,2026-05-13,S0380,,39,Cola Drink 500ml - Pack 3,1,Beverages,3,East Africa Distributors,Nairobi,2,Customer 002,Rubavu,3,753,443,159,26
+T0381,SALE,2026-03-12,S0381,,27,Bath Soap - Pack 2,5,Personal Care,5,Prime Household Supply,Kigali,8,Customer 008,Musanze,20,818,495,166,25
+T0382,PURCHASE,2026-10-30,,P0382,40,Potato Crisps 50g - Pack 3,2,Snacks,3,East Africa Distributors,Nairobi,,,,1,569,330,138,26
+T0383,SALE,2026-10-10,S0383,,18,Frozen Chicken 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,37,Customer 037,Rwamagana,4,6961,4802,34,24
+T0384,SALE,2026-10-06,S0384,,33,Ballpoint Pen - Pack 2,8,Stationery,7,City Paper Products,Kigali,29,Customer 029,Rubavu,5,342,114,30,29
+T0385,SALE,2026-10-11,S0385,,34,Floor Cleaner 1L - Pack 2,9,Cleaning,10,QuickClean Supplies,Kigali,4,Customer 004,Kigali,21,2484,1725,66,21
+T0386,SALE,2026-01-12,S0386,,1,Mineral Water 500ml,1,Beverages,1,Kigali Wholesale Ltd,Kigali,21,Customer 021,Musanze,35,371,211,119,21
+T0387,PURCHASE,2026-08-26,,P0387,33,Ballpoint Pen - Pack 2,8,Stationery,7,City Paper Products,Kigali,,,,35,342,114,30,29
+T0388,SALE,2026-03-07,S0388,,20,Orange Juice 1L - Pack 2,1,Beverages,8,Sunrise Imports,Rubavu,34,Customer 034,Huye,11,1836,1207,52,15
+T0389,SALE,2026-08-30,S0389,,16,Floor Cleaner 1L,9,Cleaning,10,QuickClean Supplies,Kigali,49,Customer 049,Musanze,21,2516,1698,82,13
+T0390,SALE,2026-07-02,S0390,,5,Chocolate Bar,2,Snacks,11,BestChoice Trading,Muhanga,43,Customer 043,Rubavu,33,967,594,167,29
+T0391,SALE,2026-08-16,S0391,,12,Canned Peas,6,Canned Foods,9,Green Valley Foods,Rwamagana,8,Customer 008,Musanze,9,1278,870,43,34
+T0392,SALE,2026-05-28,S0392,,38,Orange Juice 1L - Pack 3,1,Beverages,8,Sunrise Imports,Rubavu,45,Customer 045,Musanze,11,1927,1212,92,10
+T0393,PURCHASE,2026-03-06,,P0393,18,Frozen Chicken 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,,,,15,6961,4802,34,24
+T0394,PURCHASE,2026-03-20,,P0394,22,Potato Crisps 50g - Pack 2,2,Snacks,3,East Africa Distributors,Nairobi,,,,8,607,367,48,35
+T0395,SALE,2026-02-05,S0395,,34,Floor Cleaner 1L - Pack 2,9,Cleaning,10,QuickClean Supplies,Kigali,41,Customer 041,Kigali,13,2484,1725,66,21
+T0396,SALE,2026-04-09,S0396,,1,Mineral Water 500ml,1,Beverages,1,Kigali Wholesale Ltd,Kigali,31,Customer 031,Musanze,34,371,211,119,21
+T0397,SALE,2026-09-14,S0397,,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,23,Customer 023,Rubavu,14,687,378,28,35
+T0398,PURCHASE,2026-06-22,,P0398,13,Bread Loaf,7,Bakery,2,FreshMart Suppliers,Kigali,,,,18,970,627,49,24
+T0399,SALE,2026-09-20,S0399,,26,Laundry Soap - Pack 2,4,Household,5,Prime Household Supply,Kigali,49,Customer 049,Musanze,12,1242,799,158,29
+T0400,SALE,2026-02-16,S0400,,21,Cola Drink 500ml - Pack 2,1,Beverages,3,East Africa Distributors,Nairobi,7,Customer 007,Huye,15,704,421,19,23
+T0401,PURCHASE,2026-01-19,,P0401,9,Bath Soap,5,Personal Care,5,Prime Household Supply,Kigali,,,,18,808,499,80,29
+T0402,SALE,2026-01-30,S0402,,12,Canned Peas,6,Canned Foods,9,Green Valley Foods,Rwamagana,34,Customer 034,Huye,26,1278,870,43,34
+T0403,PURCHASE,2026-04-28,,P0403,19,Mineral Water 500ml - Pack 2,1,Beverages,1,Kigali Wholesale Ltd,Kigali,,,,1,360,200,103,15
+T0404,SALE,2026-03-25,S0404,,16,Floor Cleaner 1L,9,Cleaning,10,QuickClean Supplies,Kigali,11,Customer 011,Rwamagana,24,2516,1698,82,13
+T0405,PURCHASE,2026-06-09,,P0405,26,Laundry Soap - Pack 2,4,Household,5,Prime Household Supply,Kigali,,,,26,1242,799,158,29
+T0406,PURCHASE,2026-04-20,,P0406,9,Bath Soap,5,Personal Care,5,Prime Household Supply,Kigali,,,,12,808,499,80,29
+T0407,SALE,2026-05-24,S0407,,20,Orange Juice 1L - Pack 2,1,Beverages,8,Sunrise Imports,Rubavu,31,Customer 031,Musanze,28,1836,1207,52,15
+T0408,PURCHASE,2026-07-03,,P0408,13,Bread Loaf,7,Bakery,2,FreshMart Suppliers,Kigali,,,,23,970,627,49,24
+T0409,SALE,2026-11-01,S0409,,37,Mineral Water 500ml - Pack 3,1,Beverages,1,Kigali Wholesale Ltd,Kigali,59,Customer 059,Musanze,2,324,222,67,20
+T0410,SALE,2026-02-03,S0410,,14,Exercise Book,8,Stationery,7,City Paper Products,Kigali,44,Customer 044,Musanze,19,696,416,98,14
+T0411,SALE,2026-10-22,S0411,,3,Cola Drink 500ml,1,Beverages,3,East Africa Distributors,Nairobi,28,Customer 028,Rubavu,5,644,423,105,15
+T0412,SALE,2026-02-16,S0412,,3,Cola Drink 500ml,1,Beverages,3,East Africa Distributors,Nairobi,20,Customer 020,Muhanga,35,644,423,105,15
+T0413,PURCHASE,2026-08-11,,P0413,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,,,,24,687,378,28,35
+T0414,SALE,2026-03-08,S0414,,29,Canned Beans - Pack 2,6,Canned Foods,4,Rwanda Food Traders,Musanze,8,Customer 008,Musanze,31,1025,726,46,28
+T0415,SALE,2026-09-29,S0415,,39,Cola Drink 500ml - Pack 3,1,Beverages,3,East Africa Distributors,Nairobi,57,Customer 057,Muhanga,1,753,443,159,26
+T0416,SALE,2026-07-01,S0416,,7,Yogurt Cup,3,Dairy,6,Dairy Direct Rwanda,Huye,29,Customer 029,Rubavu,19,526,298,122,33
+T0417,PURCHASE,2026-08-09,,P0417,40,Potato Crisps 50g - Pack 3,2,Snacks,3,East Africa Distributors,Nairobi,,,,31,569,330,138,26
+T0418,PURCHASE,2026-10-30,,P0418,37,Mineral Water 500ml - Pack 3,1,Beverages,1,Kigali Wholesale Ltd,Kigali,,,,30,324,222,67,20
+T0419,SALE,2026-04-19,S0419,,31,Bread Loaf - Pack 2,7,Bakery,2,FreshMart Suppliers,Kigali,42,Customer 042,Kigali,9,877,573,125,13
+T0420,PURCHASE,2026-06-29,,P0420,26,Laundry Soap - Pack 2,4,Household,5,Prime Household Supply,Kigali,,,,30,1242,799,158,29
+T0421,SALE,2026-11-10,S0421,,25,Yogurt Cup - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,18,Customer 018,Huye,20,451,319,59,24
+T0422,PURCHASE,2026-09-28,,P0422,12,Canned Peas,6,Canned Foods,9,Green Valley Foods,Rwamagana,,,,26,1278,870,43,34
+T0423,SALE,2026-04-08,S0423,,13,Bread Loaf,7,Bakery,2,FreshMart Suppliers,Kigali,28,Customer 028,Rubavu,24,970,627,49,24
+T0424,PURCHASE,2026-05-23,,P0424,17,Frozen Chips 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,,,,30,3295,2427,54,19
+T0425,SALE,2026-07-05,S0425,,6,Fresh Milk 1L,3,Dairy,6,Dairy Direct Rwanda,Huye,48,Customer 048,Huye,30,1570,1115,87,16
+T0426,SALE,2026-11-02,S0426,,33,Ballpoint Pen - Pack 2,8,Stationery,7,City Paper Products,Kigali,9,Customer 009,Rwamagana,15,342,114,30,29
+T0427,PURCHASE,2026-11-07,,P0427,9,Bath Soap,5,Personal Care,5,Prime Household Supply,Kigali,,,,7,808,499,80,29
+T0428,PURCHASE,2026-05-18,,P0428,26,Laundry Soap - Pack 2,4,Household,5,Prime Household Supply,Kigali,,,,17,1242,799,158,29
+T0429,PURCHASE,2026-11-15,,P0429,20,Orange Juice 1L - Pack 2,1,Beverages,8,Sunrise Imports,Rubavu,,,,7,1836,1207,52,15
+T0430,SALE,2026-10-10,S0430,,19,Mineral Water 500ml - Pack 2,1,Beverages,1,Kigali Wholesale Ltd,Kigali,59,Customer 059,Musanze,7,360,200,103,15
+T0431,SALE,2026-03-03,S0431,,30,Canned Peas - Pack 2,6,Canned Foods,9,Green Valley Foods,Rwamagana,42,Customer 042,Kigali,23,1377,879,109,34
+T0432,SALE,2026-02-01,S0432,,38,Orange Juice 1L - Pack 3,1,Beverages,8,Sunrise Imports,Rubavu,53,Customer 053,Rubavu,22,1927,1212,92,10
+T0433,SALE,2026-08-21,S0433,,2,Orange Juice 1L,1,Beverages,8,Sunrise Imports,Rubavu,12,Customer 012,Muhanga,14,1873,1294,62,28
+T0434,SALE,2026-04-18,S0434,,22,Potato Crisps 50g - Pack 2,2,Snacks,3,East Africa Distributors,Nairobi,8,Customer 008,Musanze,2,607,367,48,35
+T0435,SALE,2026-08-08,S0435,,21,Cola Drink 500ml - Pack 2,1,Beverages,3,East Africa Distributors,Nairobi,54,Customer 054,Rubavu,11,704,421,19,23
+T0436,PURCHASE,2026-02-27,,P0436,11,Canned Beans,6,Canned Foods,4,Rwanda Food Traders,Musanze,,,,22,1110,759,20,18
+T0437,SALE,2026-07-05,S0437,,24,Fresh Milk 1L - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,53,Customer 053,Rubavu,16,1561,1092,51,34
+T0438,SALE,2026-09-27,S0438,,5,Chocolate Bar,2,Snacks,11,BestChoice Trading,Muhanga,15,Customer 015,Huye,17,967,594,167,29
+T0439,SALE,2026-06-10,S0439,,1,Mineral Water 500ml,1,Beverages,1,Kigali Wholesale Ltd,Kigali,60,Customer 060,Musanze,22,371,211,119,21
+T0440,PURCHASE,2026-01-30,,P0440,3,Cola Drink 500ml,1,Beverages,3,East Africa Distributors,Nairobi,,,,6,644,423,105,15
+T0441,SALE,2026-05-30,S0441,,3,Cola Drink 500ml,1,Beverages,3,East Africa Distributors,Nairobi,27,Customer 027,Musanze,26,644,423,105,15
+T0442,SALE,2026-11-17,S0442,,34,Floor Cleaner 1L - Pack 2,9,Cleaning,10,QuickClean Supplies,Kigali,41,Customer 041,Kigali,5,2484,1725,66,21
+T0443,PURCHASE,2026-01-27,,P0443,19,Mineral Water 500ml - Pack 2,1,Beverages,1,Kigali Wholesale Ltd,Kigali,,,,15,360,200,103,15
+T0444,SALE,2026-07-21,S0444,,12,Canned Peas,6,Canned Foods,9,Green Valley Foods,Rwamagana,38,Customer 038,Muhanga,13,1278,870,43,34
+T0445,SALE,2026-05-18,S0445,,23,Chocolate Bar - Pack 2,2,Snacks,11,BestChoice Trading,Muhanga,12,Customer 012,Muhanga,8,887,546,114,10
+T0446,SALE,2026-02-17,S0446,,13,Bread Loaf,7,Bakery,2,FreshMart Suppliers,Kigali,59,Customer 059,Musanze,9,970,627,49,24
+T0447,PURCHASE,2026-06-19,,P0447,34,Floor Cleaner 1L - Pack 2,9,Cleaning,10,QuickClean Supplies,Kigali,,,,28,2484,1725,66,21
+T0448,SALE,2026-09-03,S0448,,6,Fresh Milk 1L,3,Dairy,6,Dairy Direct Rwanda,Huye,5,Customer 005,Kigali,25,1570,1115,87,16
+T0449,PURCHASE,2026-06-29,,P0449,8,Laundry Soap,4,Household,5,Prime Household Supply,Kigali,,,,32,1183,786,53,19
+T0450,SALE,2026-01-29,S0450,,38,Orange Juice 1L - Pack 3,1,Beverages,8,Sunrise Imports,Rubavu,8,Customer 008,Musanze,23,1927,1212,92,10
+T0451,PURCHASE,2026-07-04,,P0451,3,Cola Drink 500ml,1,Beverages,3,East Africa Distributors,Nairobi,,,,3,644,423,105,15
+T0452,SALE,2026-01-24,S0452,,14,Exercise Book,8,Stationery,7,City Paper Products,Kigali,46,Customer 046,Rwamagana,31,696,416,98,14
+T0453,SALE,2026-08-18,S0453,,21,Cola Drink 500ml - Pack 2,1,Beverages,3,East Africa Distributors,Nairobi,4,Customer 004,Kigali,24,704,421,19,23
+T0454,SALE,2026-06-03,S0454,,24,Fresh Milk 1L - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,23,Customer 023,Rubavu,5,1561,1092,51,34
+T0455,SALE,2026-06-24,S0455,,12,Canned Peas,6,Canned Foods,9,Green Valley Foods,Rwamagana,15,Customer 015,Huye,19,1278,870,43,34
+T0456,PURCHASE,2026-03-17,,P0456,16,Floor Cleaner 1L,9,Cleaning,10,QuickClean Supplies,Kigali,,,,21,2516,1698,82,13
+T0457,SALE,2026-06-12,S0457,,5,Chocolate Bar,2,Snacks,11,BestChoice Trading,Muhanga,3,Customer 003,Muhanga,9,967,594,167,29
+T0458,PURCHASE,2026-10-06,,P0458,15,Ballpoint Pen,8,Stationery,7,City Paper Products,Kigali,,,,31,335,112,58,28
+T0459,SALE,2026-02-04,S0459,,19,Mineral Water 500ml - Pack 2,1,Beverages,1,Kigali Wholesale Ltd,Kigali,26,Customer 026,Rubavu,19,360,200,103,15
+T0460,PURCHASE,2026-09-24,,P0460,18,Frozen Chicken 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,,,,1,6961,4802,34,24
+T0461,PURCHASE,2026-05-23,,P0461,19,Mineral Water 500ml - Pack 2,1,Beverages,1,Kigali Wholesale Ltd,Kigali,,,,24,360,200,103,15
+T0462,SALE,2026-06-27,S0462,,8,Laundry Soap,4,Household,5,Prime Household Supply,Kigali,2,Customer 002,Rubavu,12,1183,786,53,19
+T0463,PURCHASE,2026-05-09,,P0463,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,,,,15,687,378,28,35
+T0464,SALE,2026-01-10,S0464,,15,Ballpoint Pen,8,Stationery,7,City Paper Products,Kigali,5,Customer 005,Kigali,29,335,112,58,28
+T0465,PURCHASE,2026-10-12,,P0465,27,Bath Soap - Pack 2,5,Personal Care,5,Prime Household Supply,Kigali,,,,25,818,495,166,25
+T0466,SALE,2026-06-12,S0466,,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,45,Customer 045,Musanze,20,687,378,28,35
+T0467,SALE,2026-02-22,S0467,,19,Mineral Water 500ml - Pack 2,1,Beverages,1,Kigali Wholesale Ltd,Kigali,24,Customer 024,Kigali,30,360,200,103,15
+T0468,SALE,2026-04-03,S0468,,33,Ballpoint Pen - Pack 2,8,Stationery,7,City Paper Products,Kigali,55,Customer 055,Kigali,1,342,114,30,29
+T0469,SALE,2026-11-16,S0469,,22,Potato Crisps 50g - Pack 2,2,Snacks,3,East Africa Distributors,Nairobi,52,Customer 052,Muhanga,24,607,367,48,35
+T0470,PURCHASE,2026-11-15,,P0470,26,Laundry Soap - Pack 2,4,Household,5,Prime Household Supply,Kigali,,,,16,1242,799,158,29
+T0471,SALE,2026-03-28,S0471,,20,Orange Juice 1L - Pack 2,1,Beverages,8,Sunrise Imports,Rubavu,32,Customer 032,Rwamagana,32,1836,1207,52,15
+T0472,SALE,2026-07-07,S0472,,28,Toothpaste 100ml - Pack 2,5,Personal Care,2,FreshMart Suppliers,Kigali,36,Customer 036,Muhanga,2,1656,1106,15,27
+T0473,PURCHASE,2026-06-10,,P0473,8,Laundry Soap,4,Household,5,Prime Household Supply,Kigali,,,,16,1183,786,53,19
+T0474,PURCHASE,2026-03-12,,P0474,40,Potato Crisps 50g - Pack 3,2,Snacks,3,East Africa Distributors,Nairobi,,,,13,569,330,138,26
+T0475,SALE,2026-01-06,S0475,,29,Canned Beans - Pack 2,6,Canned Foods,4,Rwanda Food Traders,Musanze,42,Customer 042,Kigali,2,1025,726,46,28
+T0476,SALE,2026-08-19,S0476,,27,Bath Soap - Pack 2,5,Personal Care,5,Prime Household Supply,Kigali,25,Customer 025,Huye,19,818,495,166,25
+T0477,SALE,2026-04-04,S0477,,34,Floor Cleaner 1L - Pack 2,9,Cleaning,10,QuickClean Supplies,Kigali,7,Customer 007,Huye,3,2484,1725,66,21
+T0478,SALE,2026-05-20,S0478,,2,Orange Juice 1L,1,Beverages,8,Sunrise Imports,Rubavu,31,Customer 031,Musanze,34,1873,1294,62,28
+T0479,SALE,2026-07-09,S0479,,1,Mineral Water 500ml,1,Beverages,1,Kigali Wholesale Ltd,Kigali,23,Customer 023,Rubavu,6,371,211,119,21
+T0480,PURCHASE,2026-08-09,,P0480,29,Canned Beans - Pack 2,6,Canned Foods,4,Rwanda Food Traders,Musanze,,,,30,1025,726,46,28
+T0481,SALE,2026-01-31,S0481,,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,29,Customer 029,Rubavu,22,687,378,28,35
+T0482,SALE,2026-07-16,S0482,,18,Frozen Chicken 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,23,Customer 023,Rubavu,14,6961,4802,34,24
+T0483,PURCHASE,2026-06-15,,P0483,35,Frozen Chips 1kg - Pack 2,10,Frozen Foods,12,FrostLine Distributors,Kigali,,,,8,3389,2258,42,27
+T0484,SALE,2026-11-02,S0484,,35,Frozen Chips 1kg - Pack 2,10,Frozen Foods,12,FrostLine Distributors,Kigali,7,Customer 007,Huye,35,3389,2258,42,27
+T0485,PURCHASE,2026-03-28,,P0485,29,Canned Beans - Pack 2,6,Canned Foods,4,Rwanda Food Traders,Musanze,,,,7,1025,726,46,28
+T0486,SALE,2026-10-17,S0486,,20,Orange Juice 1L - Pack 2,1,Beverages,8,Sunrise Imports,Rubavu,58,Customer 058,Kigali,12,1836,1207,52,15
+T0487,SALE,2026-10-22,S0487,,18,Frozen Chicken 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,46,Customer 046,Rwamagana,5,6961,4802,34,24
+T0488,SALE,2026-10-28,S0488,,38,Orange Juice 1L - Pack 3,1,Beverages,8,Sunrise Imports,Rubavu,2,Customer 002,Rubavu,23,1927,1212,92,10
+T0489,SALE,2026-04-21,S0489,,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,39,Customer 039,Kigali,19,687,378,28,35
+T0490,SALE,2026-09-28,S0490,,8,Laundry Soap,4,Household,5,Prime Household Supply,Kigali,56,Customer 056,Huye,34,1183,786,53,19
+T0491,PURCHASE,2026-07-21,,P0491,3,Cola Drink 500ml,1,Beverages,3,East Africa Distributors,Nairobi,,,,6,644,423,105,15
+T0492,PURCHASE,2026-05-06,,P0492,22,Potato Crisps 50g - Pack 2,2,Snacks,3,East Africa Distributors,Nairobi,,,,28,607,367,48,35
+T0493,PURCHASE,2026-05-26,,P0493,12,Canned Peas,6,Canned Foods,9,Green Valley Foods,Rwamagana,,,,13,1278,870,43,34
+T0494,PURCHASE,2026-03-24,,P0494,12,Canned Peas,6,Canned Foods,9,Green Valley Foods,Rwamagana,,,,5,1278,870,43,34
+T0495,SALE,2026-06-12,S0495,,22,Potato Crisps 50g - Pack 2,2,Snacks,3,East Africa Distributors,Nairobi,46,Customer 046,Rwamagana,30,607,367,48,35
+T0496,PURCHASE,2026-09-08,,P0496,30,Canned Peas - Pack 2,6,Canned Foods,9,Green Valley Foods,Rwamagana,,,,26,1377,879,109,34
+T0497,SALE,2026-01-13,S0497,,1,Mineral Water 500ml,1,Beverages,1,Kigali Wholesale Ltd,Kigali,38,Customer 038,Muhanga,28,371,211,119,21
+T0498,PURCHASE,2026-10-08,,P0498,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,,,,25,687,378,28,35
+T0499,SALE,2026-04-12,S0499,,2,Orange Juice 1L,1,Beverages,8,Sunrise Imports,Rubavu,20,Customer 020,Muhanga,7,1873,1294,62,28
+T0500,SALE,2026-05-27,S0500,,17,Frozen Chips 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,50,Customer 050,Huye,18,3295,2427,54,19
+T0501,PURCHASE,2026-09-17,,P0501,39,Cola Drink 500ml - Pack 3,1,Beverages,3,East Africa Distributors,Nairobi,,,,4,753,443,159,26
+T0502,SALE,2026-07-14,S0502,,36,Frozen Chicken 1kg - Pack 2,10,Frozen Foods,12,FrostLine Distributors,Kigali,55,Customer 055,Kigali,19,6770,4885,48,30
+T0503,SALE,2026-07-11,S0503,,40,Potato Crisps 50g - Pack 3,2,Snacks,3,East Africa Distributors,Nairobi,50,Customer 050,Huye,16,569,330,138,26
+T0504,SALE,2026-01-16,S0504,,31,Bread Loaf - Pack 2,7,Bakery,2,FreshMart Suppliers,Kigali,41,Customer 041,Kigali,1,877,573,125,13
+T0505,SALE,2026-06-23,S0505,,19,Mineral Water 500ml - Pack 2,1,Beverages,1,Kigali Wholesale Ltd,Kigali,16,Customer 016,Huye,20,360,200,103,15
+T0506,SALE,2026-05-13,S0506,,20,Orange Juice 1L - Pack 2,1,Beverages,8,Sunrise Imports,Rubavu,49,Customer 049,Musanze,6,1836,1207,52,15
+T0507,SALE,2026-11-15,S0507,,10,Toothpaste 100ml,5,Personal Care,2,FreshMart Suppliers,Kigali,42,Customer 042,Kigali,29,1533,1034,101,28
+T0508,PURCHASE,2026-11-17,,P0508,7,Yogurt Cup,3,Dairy,6,Dairy Direct Rwanda,Huye,,,,33,526,298,122,33
+T0509,PURCHASE,2026-11-17,,P0509,25,Yogurt Cup - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,,,,34,451,319,59,24
+T0510,PURCHASE,2026-06-25,,P0510,39,Cola Drink 500ml - Pack 3,1,Beverages,3,East Africa Distributors,Nairobi,,,,22,753,443,159,26
+T0511,PURCHASE,2026-07-27,,P0511,14,Exercise Book,8,Stationery,7,City Paper Products,Kigali,,,,35,696,416,98,14
+T0512,SALE,2026-04-02,S0512,,12,Canned Peas,6,Canned Foods,9,Green Valley Foods,Rwamagana,16,Customer 016,Huye,2,1278,870,43,34
+T0513,SALE,2026-06-13,S0513,,11,Canned Beans,6,Canned Foods,4,Rwanda Food Traders,Musanze,13,Customer 013,Huye,21,1110,759,20,18
+T0514,PURCHASE,2026-09-30,,P0514,40,Potato Crisps 50g - Pack 3,2,Snacks,3,East Africa Distributors,Nairobi,,,,15,569,330,138,26
+T0515,SALE,2026-10-25,S0515,,3,Cola Drink 500ml,1,Beverages,3,East Africa Distributors,Nairobi,59,Customer 059,Musanze,14,644,423,105,15
+T0516,PURCHASE,2026-07-29,,P0516,38,Orange Juice 1L - Pack 3,1,Beverages,8,Sunrise Imports,Rubavu,,,,18,1927,1212,92,10
+T0517,SALE,2026-06-08,S0517,,14,Exercise Book,8,Stationery,7,City Paper Products,Kigali,40,Customer 040,Rwamagana,7,696,416,98,14
+T0518,PURCHASE,2026-05-16,,P0518,5,Chocolate Bar,2,Snacks,11,BestChoice Trading,Muhanga,,,,35,967,594,167,29
+T0519,SALE,2026-05-28,S0519,,1,Mineral Water 500ml,1,Beverages,1,Kigali Wholesale Ltd,Kigali,6,Customer 006,Huye,9,371,211,119,21
+T0520,PURCHASE,2026-10-16,,P0520,39,Cola Drink 500ml - Pack 3,1,Beverages,3,East Africa Distributors,Nairobi,,,,5,753,443,159,26
+T0521,PURCHASE,2026-03-17,,P0521,1,Mineral Water 500ml,1,Beverages,1,Kigali Wholesale Ltd,Kigali,,,,8,371,211,119,21
+T0522,PURCHASE,2026-01-08,,P0522,9,Bath Soap,5,Personal Care,5,Prime Household Supply,Kigali,,,,9,808,499,80,29
+T0523,PURCHASE,2026-01-06,,P0523,30,Canned Peas - Pack 2,6,Canned Foods,9,Green Valley Foods,Rwamagana,,,,10,1377,879,109,34
+T0524,SALE,2026-03-05,S0524,,25,Yogurt Cup - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,39,Customer 039,Kigali,14,451,319,59,24
+T0525,SALE,2026-10-22,S0525,,34,Floor Cleaner 1L - Pack 2,9,Cleaning,10,QuickClean Supplies,Kigali,4,Customer 004,Kigali,13,2484,1725,66,21
+T0526,SALE,2026-10-15,S0526,,36,Frozen Chicken 1kg - Pack 2,10,Frozen Foods,12,FrostLine Distributors,Kigali,7,Customer 007,Huye,24,6770,4885,48,30
+T0527,SALE,2026-07-02,S0527,,6,Fresh Milk 1L,3,Dairy,6,Dairy Direct Rwanda,Huye,38,Customer 038,Muhanga,5,1570,1115,87,16
+T0528,PURCHASE,2026-05-20,,P0528,31,Bread Loaf - Pack 2,7,Bakery,2,FreshMart Suppliers,Kigali,,,,18,877,573,125,13
+T0529,PURCHASE,2026-03-19,,P0529,11,Canned Beans,6,Canned Foods,4,Rwanda Food Traders,Musanze,,,,20,1110,759,20,18
+T0530,SALE,2026-04-25,S0530,,14,Exercise Book,8,Stationery,7,City Paper Products,Kigali,16,Customer 016,Huye,27,696,416,98,14
+T0531,SALE,2026-09-07,S0531,,12,Canned Peas,6,Canned Foods,9,Green Valley Foods,Rwamagana,29,Customer 029,Rubavu,34,1278,870,43,34
+T0532,PURCHASE,2026-01-12,,P0532,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,,,,1,687,378,28,35
+T0533,SALE,2026-03-23,S0533,,2,Orange Juice 1L,1,Beverages,8,Sunrise Imports,Rubavu,24,Customer 024,Kigali,26,1873,1294,62,28
+T0534,SALE,2026-07-31,S0534,,13,Bread Loaf,7,Bakery,2,FreshMart Suppliers,Kigali,46,Customer 046,Rwamagana,1,970,627,49,24
+T0535,PURCHASE,2026-05-14,,P0535,35,Frozen Chips 1kg - Pack 2,10,Frozen Foods,12,FrostLine Distributors,Kigali,,,,28,3389,2258,42,27
+T0536,SALE,2026-01-19,S0536,,23,Chocolate Bar - Pack 2,2,Snacks,11,BestChoice Trading,Muhanga,39,Customer 039,Kigali,12,887,546,114,10
+T0537,SALE,2026-08-07,S0537,,7,Yogurt Cup,3,Dairy,6,Dairy Direct Rwanda,Huye,4,Customer 004,Kigali,11,526,298,122,33
+T0538,SALE,2026-01-28,S0538,,20,Orange Juice 1L - Pack 2,1,Beverages,8,Sunrise Imports,Rubavu,3,Customer 003,Muhanga,23,1836,1207,52,15
+T0539,PURCHASE,2026-06-22,,P0539,39,Cola Drink 500ml - Pack 3,1,Beverages,3,East Africa Distributors,Nairobi,,,,32,753,443,159,26
+T0540,SALE,2026-06-27,S0540,,15,Ballpoint Pen,8,Stationery,7,City Paper Products,Kigali,47,Customer 047,Muhanga,15,335,112,58,28
+T0541,PURCHASE,2026-04-23,,P0541,31,Bread Loaf - Pack 2,7,Bakery,2,FreshMart Suppliers,Kigali,,,,16,877,573,125,13
+T0542,SALE,2026-09-14,S0542,,15,Ballpoint Pen,8,Stationery,7,City Paper Products,Kigali,44,Customer 044,Musanze,28,335,112,58,28
+T0543,SALE,2026-08-19,S0543,,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,7,Customer 007,Huye,27,687,378,28,35
+T0544,PURCHASE,2026-10-05,,P0544,5,Chocolate Bar,2,Snacks,11,BestChoice Trading,Muhanga,,,,13,967,594,167,29
+T0545,SALE,2026-01-26,S0545,,16,Floor Cleaner 1L,9,Cleaning,10,QuickClean Supplies,Kigali,6,Customer 006,Huye,17,2516,1698,82,13
+T0546,PURCHASE,2026-02-12,,P0546,5,Chocolate Bar,2,Snacks,11,BestChoice Trading,Muhanga,,,,5,967,594,167,29
+T0547,SALE,2026-06-13,S0547,,5,Chocolate Bar,2,Snacks,11,BestChoice Trading,Muhanga,35,Customer 035,Rwamagana,12,967,594,167,29
+T0548,SALE,2026-07-16,S0548,,11,Canned Beans,6,Canned Foods,4,Rwanda Food Traders,Musanze,16,Customer 016,Huye,4,1110,759,20,18
+T0549,PURCHASE,2026-04-06,,P0549,29,Canned Beans - Pack 2,6,Canned Foods,4,Rwanda Food Traders,Musanze,,,,17,1025,726,46,28
+T0550,PURCHASE,2026-10-22,,P0550,27,Bath Soap - Pack 2,5,Personal Care,5,Prime Household Supply,Kigali,,,,34,818,495,166,25
+T0551,PURCHASE,2026-10-13,,P0551,30,Canned Peas - Pack 2,6,Canned Foods,9,Green Valley Foods,Rwamagana,,,,23,1377,879,109,34
+T0552,PURCHASE,2026-05-29,,P0552,38,Orange Juice 1L - Pack 3,1,Beverages,8,Sunrise Imports,Rubavu,,,,25,1927,1212,92,10
+T0553,PURCHASE,2026-07-15,,P0553,38,Orange Juice 1L - Pack 3,1,Beverages,8,Sunrise Imports,Rubavu,,,,17,1927,1212,92,10
+T0554,SALE,2026-06-10,S0554,,35,Frozen Chips 1kg - Pack 2,10,Frozen Foods,12,FrostLine Distributors,Kigali,11,Customer 011,Rwamagana,12,3389,2258,42,27
+T0555,SALE,2026-03-26,S0555,,17,Frozen Chips 1kg,10,Frozen Foods,12,FrostLine Distributors,Kigali,34,Customer 034,Huye,5,3295,2427,54,19
+T0556,SALE,2026-09-01,S0556,,9,Bath Soap,5,Personal Care,5,Prime Household Supply,Kigali,42,Customer 042,Kigali,12,808,499,80,29
+T0557,SALE,2026-01-09,S0557,,39,Cola Drink 500ml - Pack 3,1,Beverages,3,East Africa Distributors,Nairobi,46,Customer 046,Rwamagana,14,753,443,159,26
+T0558,PURCHASE,2026-09-23,,P0558,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,,,,3,687,378,28,35
+T0559,PURCHASE,2026-03-31,,P0559,36,Frozen Chicken 1kg - Pack 2,10,Frozen Foods,12,FrostLine Distributors,Kigali,,,,6,6770,4885,48,30
+T0560,SALE,2026-06-05,S0560,,29,Canned Beans - Pack 2,6,Canned Foods,4,Rwanda Food Traders,Musanze,13,Customer 013,Huye,2,1025,726,46,28
+T0561,SALE,2026-03-10,S0561,,24,Fresh Milk 1L - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,36,Customer 036,Muhanga,31,1561,1092,51,34
+T0562,SALE,2026-10-26,S0562,,13,Bread Loaf,7,Bakery,2,FreshMart Suppliers,Kigali,38,Customer 038,Muhanga,12,970,627,49,24
+T0563,SALE,2026-01-24,S0563,,39,Cola Drink 500ml - Pack 3,1,Beverages,3,East Africa Distributors,Nairobi,8,Customer 008,Musanze,9,753,443,159,26
+T0564,SALE,2026-01-08,S0564,,9,Bath Soap,5,Personal Care,5,Prime Household Supply,Kigali,54,Customer 054,Rubavu,25,808,499,80,29
+T0565,SALE,2026-09-03,S0565,,9,Bath Soap,5,Personal Care,5,Prime Household Supply,Kigali,10,Customer 010,Muhanga,21,808,499,80,29
+T0566,SALE,2026-06-06,S0566,,25,Yogurt Cup - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,3,Customer 003,Muhanga,13,451,319,59,24
+T0567,PURCHASE,2026-10-25,,P0567,6,Fresh Milk 1L,3,Dairy,6,Dairy Direct Rwanda,Huye,,,,22,1570,1115,87,16
+T0568,PURCHASE,2026-05-19,,P0568,31,Bread Loaf - Pack 2,7,Bakery,2,FreshMart Suppliers,Kigali,,,,13,877,573,125,13
+T0569,PURCHASE,2026-06-28,,P0569,15,Ballpoint Pen,8,Stationery,7,City Paper Products,Kigali,,,,20,335,112,58,28
+T0570,PURCHASE,2026-07-31,,P0570,12,Canned Peas,6,Canned Foods,9,Green Valley Foods,Rwamagana,,,,23,1278,870,43,34
+T0571,SALE,2026-04-02,S0571,,2,Orange Juice 1L,1,Beverages,8,Sunrise Imports,Rubavu,42,Customer 042,Kigali,31,1873,1294,62,28
+T0572,PURCHASE,2026-04-10,,P0572,26,Laundry Soap - Pack 2,4,Household,5,Prime Household Supply,Kigali,,,,12,1242,799,158,29
+T0573,PURCHASE,2026-04-18,,P0573,32,Exercise Book - Pack 2,8,Stationery,7,City Paper Products,Kigali,,,,11,687,378,28,35
+T0574,PURCHASE,2026-07-13,,P0574,40,Potato Crisps 50g - Pack 3,2,Snacks,3,East Africa Distributors,Nairobi,,,,15,569,330,138,26
+T0575,PURCHASE,2026-10-16,,P0575,39,Cola Drink 500ml - Pack 3,1,Beverages,3,East Africa Distributors,Nairobi,,,,21,753,443,159,26
+T0576,SALE,2026-02-05,S0576,,3,Cola Drink 500ml,1,Beverages,3,East Africa Distributors,Nairobi,5,Customer 005,Kigali,35,644,423,105,15
+T0577,PURCHASE,2026-01-29,,P0577,4,Potato Crisps 50g,2,Snacks,3,East Africa Distributors,Nairobi,,,,18,638,347,82,18
+T0578,SALE,2026-08-02,S0578,,23,Chocolate Bar - Pack 2,2,Snacks,11,BestChoice Trading,Muhanga,14,Customer 014,Muhanga,15,887,546,114,10
+T0579,SALE,2026-02-11,S0579,,31,Bread Loaf - Pack 2,7,Bakery,2,FreshMart Suppliers,Kigali,51,Customer 051,Rubavu,26,877,573,125,13
+T0580,SALE,2026-05-13,S0580,,19,Mineral Water 500ml - Pack 2,1,Beverages,1,Kigali Wholesale Ltd,Kigali,33,Customer 033,Kigali,16,360,200,103,15
+T0581,SALE,2026-08-16,S0581,,22,Potato Crisps 50g - Pack 2,2,Snacks,3,East Africa Distributors,Nairobi,41,Customer 041,Kigali,1,607,367,48,35
+T0582,PURCHASE,2026-02-23,,P0582,2,Orange Juice 1L,1,Beverages,8,Sunrise Imports,Rubavu,,,,34,1873,1294,62,28
+T0583,PURCHASE,2026-01-31,,P0583,31,Bread Loaf - Pack 2,7,Bakery,2,FreshMart Suppliers,Kigali,,,,30,877,573,125,13
+T0584,PURCHASE,2026-05-10,,P0584,24,Fresh Milk 1L - Pack 2,3,Dairy,6,Dairy Direct Rwanda,Huye,,,,32,1561,1092,51,34
+T0585,PURCHASE,2026-02-06,,P0585,16,Floor Cleaner 1L,9,Cleaning,10,QuickClean Supplies,Kigali,,,,34,2516,1698,82,13
+T0586,SALE,2026-02-08,S0586,,23,Chocolate Bar - Pack 2,2,Snacks,11,BestChoice Trading,Muhanga,22,Customer 022,Muhanga,13,887,546,114,10
+T0587,PURCHASE,2026-07-27,,P0587,34,Floor Cleaner 1L - Pack 2,9,Cleaning,10,QuickClean Supplies,Kigali,,,,30,2484,1725,66,21
+T0588,SALE,2026-10-04,S0588,,3,Cola Drink 500ml,1,Beverages,3,East Africa Distributors,Nairobi,23,Customer 023,Rubavu,16,644,423,105,15
+T0589,SALE,2026-02-16,S0589,,38,Orange Juice 1L - Pack 3,1,Beverages,8,Sunrise Imports,Rubavu,40,Customer 040,Rwamagana,29,1927,1212,92,10
+T0590,SALE,2026-11-06,S0590,,28,Toothpaste 100ml - Pack 2,5,Personal Care,2,FreshMart Suppliers,Kigali,48,Customer 048,Huye,25,1656,1106,15,27
+T0591,SALE,2026-02-03,S0591,,19,Mineral Water 500ml - Pack 2,1,Beverages,1,Kigali Wholesale Ltd,Kigali,39,Customer 039,Kigali,13,360,200,103,15
+T0592,PURCHASE,2026-03-06,,P0592,39,Cola Drink 500ml - Pack 3,1,Beverages,3,East Africa Distributors,Nairobi,,,,8,753,443,159,26
+T0593,SALE,2026-02-03,S0593,,20,Orange Juice 1L - Pack 2,1,Beverages,8,Sunrise Imports,Rubavu,20,Customer 020,Muhanga,35,1836,1207,52,15
+T0594,SALE,2026-04-19,S0594,,15,Ballpoint Pen,8,Stationery,7,City Paper Products,Kigali,23,Customer 023,Rubavu,32,335,112,58,28
+T0595,PURCHASE,2026-01-27,,P0595,7,Yogurt Cup,3,Dairy,6,Dairy Direct Rwanda,Huye,,,,16,526,298,122,33
+T0596,SALE,2026-01-15,S0596,,9,Bath Soap,5,Personal Care,5,Prime Household Supply,Kigali,28,Customer 028,Rubavu,35,808,499,80,29
+T0597,SALE,2026-03-11,S0597,,27,Bath Soap - Pack 2,5,Personal Care,5,Prime Household Supply,Kigali,27,Customer 027,Musanze,16,818,495,166,25
+T0598,SALE,2026-03-29,S0598,,33,Ballpoint Pen - Pack 2,8,Stationery,7,City Paper Products,Kigali,57,Customer 057,Muhanga,10,342,114,30,29
+T0599,SALE,2026-05-02,S0599,,35,Frozen Chips 1kg - Pack 2,10,Frozen Foods,12,FrostLine Distributors,Kigali,28,Customer 028,Rubavu,3,3389,2258,42,27
+T0600,PURCHASE,2026-01-02,,P0600,13,Bread Loaf,7,Bakery,2,FreshMart Suppliers,Kigali,,,,28,970,627,49,24
