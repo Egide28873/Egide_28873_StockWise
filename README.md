@@ -2,19 +2,37 @@ StockWise – Inventory Management and Replenishment System
 
 Project Information
 
-Student Name: Egide Niyonzima
+Detail
 
-Student ID: 28873
+Information
 
-University: Adventist University of Central Africa (AUCA)
+Student Name
 
-Course: Database Development with PL/SQL
+Egide Niyonzima
 
-Database: Oracle Database
+Student ID
 
-Programming Language: SQL and PL/SQL
+28873
 
-User Interface: Oracle APEX
+University
+
+Adventist University of Central Africa (AUCA)
+
+Course
+
+Database Development with PL/SQL (INSY 8311)
+
+Database
+
+Oracle Database
+
+Programming Language
+
+SQL and PL/SQL
+
+User Interface
+
+Oracle APEX
 
 About the Project
 
@@ -23,6 +41,22 @@ StockWise is an inventory management system designed for small retail businesses
 In many small shops, inventory is managed using notebooks or spreadsheets. This can make it difficult to know which products are running out, how much stock is available and when new products should be purchased.
 
 StockWise aims to make this process easier by bringing inventory operations into one system.
+
+Project Objectives
+
+The main objectives of StockWise are to:
+
+Make it easier to manage products and categories.
+
+Keep records of suppliers, purchases and sales.
+
+Monitor available stock quantities.
+
+Identify products that need restocking.
+
+Reduce errors caused by manual inventory records.
+
+Provide useful inventory, purchase and sales reports.
 
 Main Features
 
@@ -50,19 +84,19 @@ Oracle Database will be used to store and manage the system's information. PL/SQ
 
 The project will include:
 
-Procedures for recording purchases and sales.
+Procedures: For recording purchases and sales.
 
-Functions for calculating stock quantities and inventory value.
+Functions: For calculating stock quantities and inventory value.
 
-Triggers for updating stock automatically.
+Triggers: For updating stock automatically.
 
-Cursors for retrieving inventory information.
+Cursors: For retrieving inventory information.
 
-Packages for organizing PL/SQL operations.
+Packages: For organizing PL/SQL operations.
 
-Exception handling for invalid transactions.
+Exception Handling: For handling invalid transactions.
 
-Scheduled jobs for checking low-stock products.
+Scheduled Jobs: For checking low-stock products.
 
 User Interface
 
@@ -98,8 +132,64 @@ Proposed source: Retail Transactions and Stocks Dataset – Mendeley Data.
 
 Additional sample records may be created for information not included in the dataset, such as supplier details and purchase transactions.
 
+Project Phases
+
+Phase 0 – Research and Project Proposal
+
+This phase focused on selecting the project topic, identifying the business problem, defining the project objectives and proposing the main system features and database tables.
+
+Phase I – Business Process Modeling
+
+Selected Business Process: Inventory Monitoring and Replenishment Process.
+
+This process explains how StockWise monitors product quantities, identifies low-stock products and supports the replenishment process.
+
+The process involves four main actors:
+
+StockWise System: Checks stock quantities and generates low-stock alerts.
+
+Shop Manager: Reviews alerts and approves or rejects replenishment requests.
+
+Inventory Staff: Prepares purchase orders, checks deliveries and records purchases.
+
+Supplier: Receives purchase orders and delivers products.
+
+The process also identifies important database operations, including creating records, retrieving information and updating stock quantities.
+
+Diagram Tool: draw.io
+
+Published Business Process Diagram:
+View StockWise Activity Diagram
+
+Business Process Explanation:
+View Business Process Explanation PDF
+
+Diagram PDF:
+View Business Process Diagram PDF
+
+Phase II – Database Design and Development
+
+This phase will focus on designing and implementing the Oracle database, creating the required tables, defining relationships and inserting sample data.
+
+Phase III – PL/SQL Development and Application Implementation
+
+This phase will focus on implementing PL/SQL procedures, functions, triggers, cursors, packages and exception handling, together with developing the user interface using Oracle APEX.
+
+Project Folder Structure
+
+StockWise/
+│
+├── README.md
+│
+└── docs/
+    └── business_process/
+        ├── business_process_diagram.pdf
+        └── business_process_explanation.pdf
+
 Project Status
 
-Current stage: Phase 0 – Research and Project Proposal.
+Current stage: Phase I – Business Process Modeling.
 
-The database, PL/SQL components and Oracle APEX interface will be developed in the next stages.
+Phase 0 (Research and Project Proposal) has been completed. Phase I focuses on modeling the Inventory Monitoring and Replenishment Process and documenting the activities, actors and information flow.
+
+The next stages will focus on database design, PL/SQL development and the Oracle APEX application interface.
